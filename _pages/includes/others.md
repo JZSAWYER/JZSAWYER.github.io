@@ -1,7 +1,7 @@
 # 📖 Educations
-- *2024.09 - 2029.06(Expected)*, Ph.D., CRIPAC-DIG, NLPR, CASIA.
+- *2024.09 - 2029.06(Expected)*, Ph.D., CRIPAC-DIG, NLPR, CASIA, Beijing, China.
 - *2020.09 - 2024.06(Expected)*, Undergraduate, Cuiying Honors College, Lanzhou University, Lanzhou, Gansu.
-- *2014.09 - 2020.06*, Nanjing Foreign Language School (NFLS[<img src='./images/nfls.gif' style="width: 5em;">](http://www.nfls.com.cn/)), Nanjing, Jiangsu.
+- *2014.09 - 2020.06*, Nanjing Foreign Language School (NFLS[<img src='./images/nfls.gif' style="width: 10em;">](http://www.nfls.com.cn/)), Nanjing, Jiangsu.
 
 # 💼 Experiences
 - *2021.07*, [Summer Semester of Cuiying Honors College](https://news.lzu.edu.cn/202107/07-08_093542-59.jpg), Lanzhou University.
