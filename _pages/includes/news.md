@@ -5,4 +5,4 @@
 - *2023.04*: 🎖️ Won Provicial First Prize (2nd place) at [the 14th Chinese Mathematics Competition](https://mp.weixin.qq.com/s/b7nffSDuIZbPEBOb7eWCVA). Did't attend national final due to COVID-19.
 - *2023.03*: 🎖️ Won National Second Prize at [the 13th Chinese Mathematics Competition](https://mp.weixin.qq.com/s/b7nffSDuIZbPEBOb7eWCVA). Thanks to Mr. Xiangkun Wu(武翔坤) for his assistance!
 - *2023.02*: 🎉 Be nominated "Excellent Camper" at Winter Camp of Qiuzhen College[<img src='./images/qzc_logo.png' style="width: 6em;">](https://qzc.tsinghua.edu.cn/), Tsinghua University.
-- *2022.07*: 🎖️🎖️ Won **2 Excellence Awards** at [2022 S.-T. Yau College Student Mathematics Contest](http://www.yau-contest.com/show-86-52.html). First person in the history of LZU.
+- *2022.07*: 🎖️🎖️ Won **two Excellence Awards** at [2022 S.-T. Yau College Student Mathematics Contest](http://www.yau-contest.com/show-86-52.html). First person in the history of LZU.
