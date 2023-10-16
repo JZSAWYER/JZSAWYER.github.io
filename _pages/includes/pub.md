@@ -13,7 +13,7 @@ Ziyang Xu, **Haitian Zhong**, Tianchi Lu<sup>*</sup>, Xueying Wang<sup>*</sup>
 
 - **Impact**: We hope that PTransIPs will aid in deepening the understanding of SARS-CoV-2 phosphorylation sites and look forward to enhancing PTransIPs in the future to become a more powerful tool for the scientific community.
 
-- **Codes**: [![](https://img.shields.io/github/stars/StatXzy7/PTransIPs?style=social)](https://github.com/StatXzy7/PTransIPs)
+- **Codes**: [![](https://img.shields.io/github/stars/StatXzy7/PTransIPs?style=social&label=PTransIPs)](https://github.com/StatXzy7/PTransIPs)
 
 </div>
 </div>
