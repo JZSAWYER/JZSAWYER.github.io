@@ -4,7 +4,7 @@ I intend to **pursue my Ph.D. degree at the Center for Research on Intelligent P
 
 I won **two Excellence Awards at 2022 S.-T. Yau College Student Mathematics Contest**[<img src='./images/ycmc.png' style="width: 6em;">](http://www.yau-contest.com/show-86-52.html) in the subjects of [Analysis and Partial Differential Equations (分析与微分方程)](http://yau-contest.com/uploads/file/20220811/20220811173216_22765.pdf) and [Applied and Computational Mathematics (应用数学与计算数学)](http://yau-contest.com/uploads/file/20220801/20220801162446_69325.pdf). This distinction made me **the FIRST winner ever** from Lanzhou University to be recognized in these two subjects. Additionally, I advanced to the national finals of Chinese Mathematics Competition([CMC(全国大学生数学竞赛)](http://www.cmathc.cn/)) twice.
 
-My research interests include **Large Language Models (Factual Editing and Interpretability), Numerical Analysis (Computational PDEs), Machine Learning (Generative Models and Theory) and AI for Science (Bioinformatics)**.
+My research interests include **Large Language Models (MLLM Editing and Reasoning), Numerical Analysis (Computational PDEs), Machine Learning (Generative Models and Theory) and AI for Science (Bioinformatics)**.
 
 Outside of research, I'm a big fan of Chelsea Football Club[<img src='./images/chelsea.png' style="width: 1.22em;">](https://www.chelseafc.com/en) and the Los Angeles Lakers[<img src='./images/lal.png' style="width: 2em;">](https://www.nba.com/lakers/). My GOATs are Lionel Messi⚽ and LeBron James🏀 in their respective fields. In my free time, I enjoy running👟 and playing basketball🏀 a lot.
 
