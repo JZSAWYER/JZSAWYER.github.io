@@ -25,5 +25,5 @@ redirect_from:
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=486&t=tt&d=delbcR5F-4JyHOBOX_RBwwElRbRXtcFtYvUEyDbPl60&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
 
 <div style="text-align: center; font-size: small;">
-  Last updated on 2023/12/03
+  Last updated on 2023/12/20
 </div>
