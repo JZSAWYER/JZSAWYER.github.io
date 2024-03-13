@@ -1,5 +1,5 @@
 # 🎖️ Honors and Awards
-- *2024.03* 🔥**Provincial Outstanding Graduates** [Full List📜](https://job.lzu.edu.cn/ueditor/upload/file/20240313/1710317681484077973.xlsx)
+- *2024.03* 🔥**Provincial Outstanding Graduates** (2 out of 100 in China’s Top-notch Undergraduate training program) [Full List📜](https://job.lzu.edu.cn/ueditor/upload/file/20240313/1710317681484077973.xlsx)
 - *2024.03* Outstanding Graduates of Lanzhou University [Full List📜](https://xgb.lzu.edu.cn/xgbnew/upload/files/20240304/a7bb218fa2c1427095c1b713bce08261.xls)
 - *2023.12* University Merit Scholarship, First Class (Top 1%) [Full List📜](https://xgb.lzu.edu.cn/upload/news/N20221204222550.xls)
 - *2023.04* The $14^{th}$ Chinese Mathematics Competition, Provincial First Prize (2nd place) [Full List📜](https://mp.weixin.qq.com/s/VGF74trx451wKz1KMv5TDQ)

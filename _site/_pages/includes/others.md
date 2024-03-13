@@ -12,4 +12,5 @@
     - Invited Sessions: 2D-Shapley: A Framework for Fragmented Data Valuation (Xiangyu Chang,Xi'an Jiaotong University); Consistent Selection of the Number of Groups in Panel Models via Sample-Splitting (Xuening Zhu, Fudan University); Efficient, Stable, and Analytic Differentiation of the Sinkhorn Loss (Yixuan Qiu, Shanghai University of Finance and Economics); Peer-Label Assisted Hierarchical Text Classification (Feifei Wang, Renmin University of China).
 
 # 💻 Internships
-- *2023.10 - Present*, Undergraduate Researcher, CRIPAC-DIG, Beijing.
+- *2023.03 - Present*, Research Assistant, MSRA-SC, Beijing.
+- *2023.10 - 2023.02*, Undergraduate Researcher, CRIPAC-DIG, Beijing.
