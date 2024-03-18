@@ -1,5 +1,5 @@
 # 🔥 News
-- *2024.03*: Now working as a **Research Assistant @MSRA[<img src='./images/msra.png' style="width: 5em;">](https://www.msra.cn/), studying LLM Safety**.
+- *2024.03*: Now working as a **research assistant @MSRA[<img src='./images/msra.png' style="width: 5em;">](https://www.msra.cn/), studying LLM Safety**.
 - *2024.03*: 🔥🔥🔥 **Our paper [PTransIPs: Identification of phosphorylation sites enhanced by protein PLM embeddings](https://arxiv.org/abs/2308.05115) is accepted to IEEE J-BHI!** A collabrative work with [Ziyang Xu(徐子扬)](https://statxzy7.github.io/), advised by [Tianchi Lu(卢天驰)](https://www.researchgate.net/profile/Tianchi-Lu-3).
 - *2024.03*: 🔥🔥 **Manuscripts [ViKEB: A LVLM Knowledge Editing Benchmark](https://arxiv.org/abs/2403.07350) released on arXiv!** A collabrative work with [Han Huang(黄瀚)](https://www.linkedin.com/in/%E7%BF%B0-%E9%BB%84-4aa291208/?locale=en_US), advised by Prof. Qiang Liu and Shu Wu.
 - *2023.10*: Worked as an **undergraduate reseacher @CRIPAC-DIG[<img src='./images/dig_logo.png' style="width: 11em;">](https://github.com/CRIPAC-DIG), studying LVLM Editing**.
