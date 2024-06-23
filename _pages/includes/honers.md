@@ -1,5 +1,5 @@
 # 🎖️ Honors and Awards
-- *2024.06* 🔥🔥**UnderGraduate representitive of Lanzhou University**, ranked 1/37 among all oustanding graduates nominees. [News📰](https://news.lzu.edu.cn/c/202406/112650.html)
+- *2024.06* 🔥🔥**Undergraduate Graduate Representitive of Lanzhou University**, ranked 1/37 of all oustanding graduate nominees. [News📰](https://news.lzu.edu.cn/c/202406/112650.html)
 - *2024.03* 🔥**Provincial Outstanding Graduates** (2 out of 100 students in China’s Top-notch Undergraduate training program) [Full List📜](https://job.lzu.edu.cn/ueditor/upload/file/20240313/1710317681484077973.xlsx)
 - *2024.03* Outstanding Graduates of Lanzhou University [Full List📜](https://xgb.lzu.edu.cn/xgbnew/upload/files/20240304/a7bb218fa2c1427095c1b713bce08261.xls)
 - *2023.12* University Merit Scholarship, First Class (Top 1%) [Full List📜](https://xgb.lzu.edu.cn/upload/news/N20221204222550.xls)
