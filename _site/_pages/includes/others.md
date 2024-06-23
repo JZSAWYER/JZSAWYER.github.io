@@ -1,6 +1,6 @@
 # 📖 Educations
-- *2024.09 - 2029.06(Expected)*, Ph.D., CRIPAC-DIG, NLPR, CASIA, Beijing, China. (Supervisor: Tieniu Tan, Co-supervisor: Qiang Liu and Shu Wu)
-- *2020.09 - 2024.06(Expected)*, Undergraduate, Cuiying Honors College, Lanzhou University, Lanzhou, Gansu.
+- *2024.09 - 2029.06(Expected)*, Ph.D., NLPR, CASIA, Beijing, China. (Supervisor: Tieniu Tan, Co-supervisor: Qiang Liu and Shu Wu)
+- *2020.09 - 2024.06*, B.S. in Mathematics, Cuiying Honors College, Lanzhou University, Lanzhou, Gansu.
 - *2014.09 - 2020.06*, Nanjing Foreign Language School (NFLS[<img src='./images/nfls.gif' style="width: 10em;">](http://www.nfls.com.cn/)), Nanjing, Jiangsu.
 
 # 💼 Experiences
@@ -12,5 +12,5 @@
     - Invited Sessions: 2D-Shapley: A Framework for Fragmented Data Valuation (Xiangyu Chang,Xi'an Jiaotong University); Consistent Selection of the Number of Groups in Panel Models via Sample-Splitting (Xuening Zhu, Fudan University); Efficient, Stable, and Analytic Differentiation of the Sinkhorn Loss (Yixuan Qiu, Shanghai University of Finance and Economics); Peer-Label Assisted Hierarchical Text Classification (Feifei Wang, Renmin University of China).
 
 # 💻 Internships
-- *2023.03 - Present*, Research Assistant, MSRA-SC, Beijing.
+- *2023.03 - 2023.06*, Research Assistant, MSRA-SC, Beijing. [Certificate](../files/Internship Certificate.pdf)
 - *2023.10 - 2023.02*, Undergraduate Researcher, CRIPAC-DIG, Beijing.
