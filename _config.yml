@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Haitian Zhong(仲海天)"
-description              : "Hi! I will become a Ph.D. student at NLPR, CASIA in 2 months. Formerly a research assistant @Microsoft Research Asia."
+description              : "Hi! I will become a Ph.D. student at NLPR, CASIA. Formerly a research assistant @Microsoft Research Asia."
 repository               : "JZSAWYER/JZSAWYER.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Haitian Zhong"
   avatar           : "images/profile.png"
-  bio              : "Lanzhou University"
+  bio              : "Institute of Automation, Chinese Academy of Sciences"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
