@@ -5,8 +5,8 @@
 <!-- - *2024.03*: 🔥🔥 **Manuscripts [ViKEB: A LVLM Knowledge Editing Benchmark](https://arxiv.org/abs/2403.07350) released on arXiv!** A collabrative work with [Han Huang(黄瀚)](https://www.linkedin.com/in/%E7%BF%B0-%E9%BB%84-4aa291208/?locale=en_US), advised by Prof. Qiang Liu and Shu Wu. -->
 - *2023.10*: Worked as an **undergraduate reseacher at CRIPAC-DIG[<img src='./images/dig_logo.png' style="width: 11em;">](https://github.com/CRIPAC-DIG), studying LVLM Editing**.
 <!-- - *2023.08*: 🔥🔥 **Manuscripts [PTransIPs: Identification of phosphorylation sites based on protein pretrained language model and Transformer](https://arxiv.org/abs/2308.05115) released on arXiv!** A collabrative work with [Ziyang Xu(徐子扬)](https://statxzy7.github.io/) and [Tianchi Lu(卢天驰)](https://www.researchgate.net/profile/Tianchi-Lu-3). -->
-- *2023.07*: 🎉 Tentitively accepted by CASIA as a Ph.D. Candidate.
-- *2023.04*: 🎖️ Won Provicial First Prize (2nd place) at [the 14th Chinese Mathematics Competition](https://mp.weixin.qq.com/s/b7nffSDuIZbPEBOb7eWCVA). Did't attend national final due to COVID-19.
+<!-- - *2023.07*: 🎉 Tentitively accepted by CASIA as a Ph.D. Candidate. -->
+<!-- - *2023.04*: 🎖️ Won Provicial First Prize (2nd place) at [the 14th Chinese Mathematics Competition](https://mp.weixin.qq.com/s/b7nffSDuIZbPEBOb7eWCVA). Did't attend national final due to COVID-19. -->
 - *2023.03*: 🎖️ Won National Second Prize at [the 13th Chinese Mathematics Competition](https://mp.weixin.qq.com/s/b7nffSDuIZbPEBOb7eWCVA). Thanks to [Mr. Xiangkun Wu (武翔坤)](https://openreview.net/profile?id=~Xiangkun_Wu1) for his assistance!
 <!-- - *2023.02*: 🎉 Be nominated "Excellent Camper" at Winter Camp of Qiuzhen College[<img src='./images/qzc_logo.png' style="width: 6em;">](https://qzc.tsinghua.edu.cn/), Tsinghua University. -->
 - *2022.07*: 🎖️🎖️ Won **two Excellence Awards** at [2022 S.-T. Yau College Student Mathematics Contest](http://www.yau-contest.com/show-86-52.html). First candidate in the history of LZU.
