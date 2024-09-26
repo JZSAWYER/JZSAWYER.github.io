@@ -41,12 +41,13 @@ author:
   github           : "JZSAWYER"
   google_plus      :
   keybase          :
-  instagram        : "jzsawyer"
+  instagram        : #"jzsawyer"
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : "https://orcid.org/0009-0002-4741-3411" # e.g., "https://orcid.org/xxxx"
+  openreview       : "https://openreview.net/profile?id=~Haitian_Zhong1"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -54,7 +55,7 @@ author:
   tumblr           :
   twitter          : 
   vine             :
-  weibo            : "5610220514"
+  weibo            : #"5610220514"
   xing             :
   youtube          :
   wikipedia        :
