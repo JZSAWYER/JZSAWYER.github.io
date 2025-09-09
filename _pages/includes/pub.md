@@ -1,7 +1,17 @@
 # 📝 Publications 
 
-## 💻 Multimodal Large Language Models
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``NeurIPS 2024``</div><img src='images/0_editing.png' alt="sy   m" width="100%"></div></div>
+## 💻 Large Language Models
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``EMNLP 2025``</div><img src='images/react.png' alt="sy   m" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+ [**REACT**: **R**epresentation **E**xtraction **A**nd **C**ontrollable **T**uning to Overcome Overfitting in LLM Knowledge Editing](https://arxiv.org/pdf/2505.18933.pdf) \\
+**Haitian Zhong**, Yuhuan Liu, Ziyang Xu, Guofan Liu, Qiang Liu, Shu Wu, Zhe Zhao, Liang Wang, Tieniu Tan
+
+- **Abstract**: Large language model editing methods frequently suffer from overfitting, wherein factual updates can propagate beyond their intended scope, overemphasizing the edited target even when it's contextually inappropriate. To address this challenge, we introduce **REACT** (**R**epresentation **E**xtraction **A**nd **C**ontrollable **T**uning), a unified two-phase framework designed for precise and controllable knowledge editing. In the initial phase, we utilize tailored stimuli to extract latent factual representations and apply Principal Component Analysis with a simple learnbale linear transformation to compute a directional "belief shift" vector for each instance. In the second phase, we apply controllable perturbations to hidden states using the obtained vector with a magnitude scalar, gated by a pre-trained classifier that permits edits only when contextually necessary. Relevant experiments on EVOKE benchmarks demonstrate that **REACT** significantly reduces overfitting across nearly all evaluation metrics, and experiments on COUNTERFACT and MQuAKE shows that our method preserves balanced basic editing performance (reliability, locality, and generality) under diverse editing scenarios.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">``NeurIPS 2024``</div><img src='images/vlkeb.png' alt="sy   m" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
  [**VLKEB**: A Large **V**ision-**L**anguage Model **K**nowledge **E**diting **B**enchmark](https://arxiv.org/pdf/2403.07350.pdf) \\
