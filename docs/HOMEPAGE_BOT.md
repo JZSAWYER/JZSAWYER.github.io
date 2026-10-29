@@ -63,7 +63,10 @@ directly and omit analytics and visitor counters from the review artifact.
 The original site templates and styles remain the source for publication.
 
 The current content draft uses **third-year Ph.D. student**, includes seven LLM
-publications, and retains the existing public CV download. Internships precede
+publications, and retains the existing public CV download. Research wording uses
+**agentic RL** alongside LLM post-training. The VLKEB news entry keeps its
+acceptance announcement and omits the collaboration and resource sentence.
+Internships precede
 publications. The papers are grouped into **Post-training** (four, including
 agent harnesses and reasoning evaluation) and **Knowledge Editing** (three).
 AI for Science interests, papers, and associated news are omitted from the
@@ -89,8 +92,13 @@ than a site plugin. The configured timezone remains `Asia/Shanghai`.
 The visual refinement keeps the profile sidebar and publication thumbnails.
 It draws on the clear typography, spacing, and restrained accents of the
 [reference homepage](https://haolpku.github.io/), using an independent deeper
-teal palette, system fonts, soft borders, and aligned news dates. Homepage
-styles are scoped in [`_sass/_homepage.scss`](../_sass/_homepage.scss).
+teal palette, soft borders, and aligned news dates. Typography uses locally
+bundled **Source Sans 3**, regular body text, semibold headings, normal letter
+spacing, and larger publication text. Upright and italic variable WOFF2 files
+come from the [pinned Adobe release](https://github.com/adobe-fonts/source-sans/tree/87b37a2daaed80fcb8e8ccb0085c4d72ddade12e).
+The original copyright and [OFL license](../assets/fonts/source-sans-3/LICENSE.md)
+are bundled with the fonts and preserved in the stylesheet embedded in the
+standalone preview. Homepage styles are scoped in [`_sass/_homepage.scss`](../_sass/_homepage.scss).
 [`assets/js/homepage.js`](../assets/js/homepage.js) progressively adds topic
 filters, native abstract disclosures, active navigation, and a return-to-top
 link. With JavaScript disabled, all seven papers and complete abstracts remain
@@ -105,13 +113,15 @@ The Jekyll build and standalone HTML checks pass for seven publication cards,
 four/three topic groups, eight news entries, all seven navigation links, the
 requested professor names, removed content, and local assets. The standalone
 preview embeds 18 images and has no external script or stylesheet dependency.
-All 33 browser checks passed in headless Chromium 102 at widths 320, 390, 768,
-and 1440 pixels, with no console or script errors. Checks cover filters, native disclosures, menu keyboard behavior,
+All 40 browser checks passed in headless Chromium 102 at widths 320, 390, 768,
+and 1440 pixels, with no console or script errors. Checks also verify loaded
+Source Sans 3 regular/semibold faces, embedded font sources, and the requested
+wording corrections. Other checks cover filters, native disclosures, menu keyboard behavior,
 skip-link focus, sticky-header clearance, active navigation, image loading,
 reduced motion, no-JavaScript content, and horizontal overflow. The theme
 scrolling handler is disabled on the homepage so native focus and scroll
 margins work. The test host lacks CJK and emoji fonts; screenshot review uses
-temporary fallback fonts without adding a font dependency to the site.
+temporary fallback fonts without adding CJK or emoji font assets to the site.
 Repository dependency files and tracked `_site/` output are preserved; no publication,
 deployment, pull request, merge, or hosting changes are part of this review.
 

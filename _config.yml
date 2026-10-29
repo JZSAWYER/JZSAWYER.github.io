@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Haitian Zhong(仲海天)"
-description              : "Hi! I am a third-year Ph.D. student at NLPR, CASIA, working on LLM post-training, reliable agents, reasoning evaluation, and knowledge editing."
+description              : "Hi! I am a third-year Ph.D. student at NLPR, CASIA, working on LLM post-training, agentic RL, reasoning evaluation, and knowledge editing."
 repository               : "JZSAWYER/JZSAWYER.github.io"
 google_scholar_stats_use_cdn : true
 

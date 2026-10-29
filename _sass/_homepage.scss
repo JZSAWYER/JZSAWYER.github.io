@@ -1,16 +1,127 @@
+/*! Source Sans 3 — Adobe, SIL Open Font License 1.1.
+Copyright 2010-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe in the United States and/or other countries.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+*/
+
+@font-face {
+  font-family: "Source Sans 3";
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("../fonts/source-sans-3/SourceSans3VF-Upright.ttf.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Source Sans 3";
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("../fonts/source-sans-3/SourceSans3VF-Italic.ttf.woff2") format("woff2");
+}
+
 /* A light refinement of the existing AcadHomepage layout. */
 .homepage {
   color: #293844;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 16px;
-  line-height: 1.72;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 
   [hidden] { display: none !important; }
   h1, h2, h3, .masthead__inner-wrap, .sidebar p, .sidebar li {
     font-family: inherit;
   }
-  h1, h2, h3, strong { color: #193749; }
+  h1, h2, h3, strong { color: #193749; font-weight: 600; }
   a { color: #246d80; }
   a:hover { color: #164c5b; }
   a:focus-visible, button:focus-visible, summary:focus-visible {
@@ -37,9 +148,9 @@
   .masthead__inner-wrap { max-width: 1240px; padding: .7rem 1.5rem; }
   .masthead__menu-item--lg { padding-right: 1.2rem; }
   .greedy-nav {
-    a { color: #536471; font-size: .88rem; margin: 0 .8rem; }
-    .masthead__menu-home-item a { color: #193749; font-size: 1rem; }
-    a[aria-current="location"] { color: #246d80; }
+    a { color: #536471; font-size: 1rem; margin: 0 .8rem; }
+    .masthead__menu-home-item a { color: #193749; font-size: 1.12rem; font-weight: 600; }
+    a[aria-current="location"] { color: #246d80; font-weight: 600; }
     .visible-links a:before { height: 2px; background: #24758a; }
     .visible-links a[aria-current="location"]:before { transform: scaleX(1); }
     button { background: #246d80; border-radius: 5px; }
@@ -55,11 +166,11 @@
       margin: 0 0 1.35rem;
       padding-bottom: .65rem;
       border-bottom-color: #e0e9ed;
-      font-size: 1.42rem;
-      letter-spacing: -.025em;
+      font-size: 1.6rem;
+      letter-spacing: normal;
       line-height: 1.4;
     }
-    h2 { font-size: 1.12rem; letter-spacing: -.015em; }
+    h2 { font-size: 1.26rem; letter-spacing: normal; }
     h1:before, .anchor:before { display: none; }
     h1, h2, .anchor { scroll-margin-top: 6rem; }
     #about-me { margin-top: 0; scroll-margin-top: 6rem; }
@@ -67,13 +178,13 @@
   }
   .home-section + .home-section { margin-top: 3.5rem; }
   .home-section--intro {
-    p:first-child { font-size: 1.02em; line-height: 1.85; }
+    p:first-child { font-size: 1em; line-height: 1.75; }
     img { vertical-align: middle; margin: 0 .15rem; max-height: 1.9rem; object-fit: contain; }
   }
 
   .author__avatar img { max-width: 155px; padding: 5px; border: 1px solid #dce7ec; box-shadow: 0 4px 18px rgba(25, 55, 73, .06); }
-  .sidebar .author__name { font-family: inherit; font-size: 1.2rem; letter-spacing: -.035em; }
-  .sidebar p, .sidebar li { font-size: .86rem; }
+  .sidebar .author__name { font-family: inherit; font-size: 1.4rem; letter-spacing: normal; }
+  .sidebar p, .sidebar li { font-size: .97rem; }
   .author__urls a { padding: .2rem 0; }
   .author__urls .fa-fw { color: #698591; }
   .author__urls_sm a { display: inline-block; padding: .25rem; }
@@ -85,7 +196,7 @@
     gap: .85rem;
     margin-bottom: .8rem;
     line-height: 1.65;
-    time { color: #596e7a; font-size: .83rem; font-variant-numeric: tabular-nums; padding-top: .15rem; }
+    time { color: #596e7a; font-size: .9rem; font-variant-numeric: tabular-nums; padding-top: .15rem; }
     strong { font-weight: 600; }
   }
   .home-section--internships > ul { padding: 0 0 0 .6rem; list-style: none; }
@@ -96,7 +207,7 @@
     border-left: 1px solid #d7e5ea;
     &:before { content: ""; position: absolute; left: -4px; top: .55rem; width: 7px; height: 7px; border-radius: 50%; background: #24758a; }
     &:last-child { padding-bottom: 0; border-left-color: transparent; }
-    > em { color: #596e7a; font-style: normal; font-size: .86rem; font-variant-numeric: tabular-nums; }
+    > em { color: #596e7a; font-style: normal; font-size: .93rem; font-variant-numeric: tabular-nums; }
     ul { padding-left: 1.2rem; margin-top: .55rem; color: #536471; font-size: .92rem; }
     ul li + li { margin-top: .4rem; }
   }
@@ -123,7 +234,7 @@
   }
   .publication-group {
     > h2 { margin: 1.7rem 0 .4rem; }
-    > p { color: #596e7a; font-size: .9rem; }
+    > p { color: #596e7a; font-size: 1rem; }
     + .publication-group { margin-top: 2.5rem; }
   }
   .paper-box {
@@ -153,27 +264,27 @@
       border-radius: 5px;
       color: #245b70;
       background: #eef5f8;
-      font-size: .7rem;
-      font-weight: 650;
+      font-size: .8rem;
+      font-weight: 600;
       line-height: 1.5;
       code { padding: 0; background: none; color: inherit; font: inherit; }
     }
     .paper-box-text {
-      font-size: .85rem;
+      font-size: 1rem;
       line-height: 1.65;
       > p:first-child { margin: 0 0 .8rem; }
-      > p:first-child > a { display: inline-block; margin-bottom: .55rem; color: #193749; font-size: 1rem; font-weight: 650; line-height: 1.45; text-decoration: none; }
+      > p:first-child > a { display: inline-block; margin-bottom: .55rem; color: #193749; font-size: 1.2rem; font-weight: 600; line-height: 1.4; text-decoration: none; }
       > p:first-child > a:hover { color: #246d80; text-decoration: underline; }
-      > p:first-child > a strong { color: inherit; }
-      ul { padding-left: 1.1rem; margin-bottom: 0; font-size: .83rem; }
+      > p:first-child > a strong { color: inherit; font-weight: inherit; }
+      ul { padding-left: 1.1rem; margin-bottom: 0; font-size: .93rem; }
       li { margin-bottom: .3rem; }
       li p { margin-bottom: .35rem; }
     }
     .paper-abstract {
       margin: .5rem 0 .7rem;
-      summary { width: fit-content; cursor: pointer; color: #246d80; font-size: .82rem; font-weight: 600; }
+      summary { width: fit-content; cursor: pointer; color: #246d80; font-size: .93rem; font-weight: 600; }
       summary:hover { color: #164c5b; text-decoration: underline; text-underline-offset: 3px; }
-      .paper-abstract__body { margin-top: .65rem; padding: .75rem .85rem; border-left: 2px solid #bfd5de; background: #f7fafb; font-size: .86rem; line-height: 1.75; }
+      .paper-abstract__body { margin-top: .65rem; padding: .75rem .85rem; border-left: 2px solid #bfd5de; background: #f7fafb; font-size: 1rem; line-height: 1.7; }
     }
   }
   .home-section--honors, .home-section--education {
@@ -210,15 +321,15 @@
     #main { margin-top: 1.5rem; padding: 0 1.1rem; }
     .masthead__inner-wrap { padding-left: 1.1rem; padding-right: 1.1rem; }
     .home-section + .home-section { margin-top: 2.75rem; }
-    .home-section--intro p:first-child { font-size: 1em; line-height: 1.8; }
+    .home-section--intro p:first-child { font-size: 1em; line-height: 1.75; }
     .news-item { grid-template-columns: 3.9rem minmax(0, 1fr); gap: .55rem; }
-    .news-item time { font-size: .77rem; }
+    .news-item time { font-size: .85rem; }
     .paper-box { grid-template-columns: minmax(0, 1fr); padding: 1rem; gap: .85rem; }
     .paper-box .paper-box-text { order: 1; }
     .paper-box .paper-box-image { order: 2; }
     .paper-box .paper-box-image img { max-height: 145px; margin-top: .5rem; }
     .paper-box .paper-box-image > div { max-width: 320px; }
-    .paper-box .paper-box-text > p:first-child > a { font-size: 1.02rem; }
+    .paper-box .paper-box-text > p:first-child > a { font-size: 1.16rem; }
     .profile_box { display: grid; grid-template-columns: 75px minmax(0, 1fr); gap: .6rem .85rem; align-items: center; }
     .author__avatar { width: 75px; }
     .author__content { min-width: 0; padding: 0; }
