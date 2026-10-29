@@ -2,14 +2,14 @@
 
 <!-- intern-agent.record.v2
 {
-  "activity": "waiting",
+  "activity": "completed",
   "conversation_id": "s_a80f891ea966452f",
   "kind": "conversation",
   "mode": "idle",
-  "revision": 12990,
+  "revision": 13006,
   "schema": "intern-agent.record.v2",
   "task_id": null,
-  "updated_at": "2026-10-29T04:04:16.275Z",
+  "updated_at": "2026-10-29T04:07:19.193Z",
   "workspace": "homepage"
 }
 -->
@@ -18,6 +18,6 @@
 
 Mode: idle
 
-Agent: waiting
+Agent: completed
 
 Named task: none

@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 12990,
+  "revision": 13006,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -17,7 +17,9 @@
 >     "enabled": 1
 >   },
 >   "conversation": "s_a80f891ea966452f",
->   "fast": null,
+>   "fast": {
+>     "tier": "default"
+>   },
 >   "goal_selection": null,
 >   "lifecycle": "ready",
 >   "model": {
