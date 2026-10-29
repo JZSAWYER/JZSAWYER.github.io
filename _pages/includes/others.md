@@ -1,6 +1,9 @@
+<span class="anchor" id="-educations"></span>
+
 # 📖 Educations
-- *2024.09 - 2029.06(Expected)*, Ph.D., NLPR, CASIA, Beijing, China. (Supervisor: Tieniu Tan, Co-supervisor: Qiang Liu and Shu Wu)
-- *2020.09 - 2024.06*, B.S. in Mathematics, Cuiying Honors College, Lanzhou University, Lanzhou, Gansu.
+- *2024.09 - 2029.06(Expected)*, Ph.D., NLPR, CASIA, Beijing, China. (Supervisor: Tieniu Tan; Co-supervisor: Qiang Liu)
+- *2024.09 - Present*, Joint Ph.D. student, Beijing Zhongguancun Academy, Beijing, China. (Supervisors: Bin Dong and Wentao Zhang)
+- *2020.09 - 2024.06*, B.S. in Mathematics and Applied Mathematics, Cuiying Honors College, Lanzhou University, Lanzhou, Gansu.
 - *2014.09 - 2020.06*, Nanjing Foreign Language School (NFLS[<img src='./images/nfls.gif' style="width: 10em;">](http://www.nfls.com.cn/)), Nanjing, Jiangsu.
 
 <!-- # 💼 Experiences
@@ -10,7 +13,3 @@
     - Plenary Talks: Fast Distributed Principal Component Analysis of Large-Scale Federated Data (Xihong Lin, Harvard University); On Dynamics-Informed Blending of Machine Learning and Microeconomics Speaker (Michael I. Jordan, University of California, Berkeley); Optimal Nonparametric Testing of Missing Completely at Random, and Its Connections to Compatibility (Richard J. Samworth, University of Cambridge).    
     - Distinguished Session: Generating Robust Evidence with Multi-institutional EHR Data (Tianxi Cai, Harvard University); Genetic Studies of Human Brain Imaging Data (Heping Zhang, Yale University).
     - Invited Sessions: 2D-Shapley: A Framework for Fragmented Data Valuation (Xiangyu Chang,Xi'an Jiaotong University); Consistent Selection of the Number of Groups in Panel Models via Sample-Splitting (Xuening Zhu, Fudan University); Efficient, Stable, and Analytic Differentiation of the Sinkhorn Loss (Yixuan Qiu, Shanghai University of Finance and Economics); Peer-Label Assisted Hierarchical Text Classification (Feifei Wang, Renmin University of China). -->
-
-# 💻 Internships
-- *2023.03 - 2023.06*, Research Assistant, MSRA-SC, Beijing. [Certificate](../files/Internship Certificate.pdf)
-- *2023.10 - 2023.02*, Undergraduate Researcher, CRIPAC-DIG, Beijing.
