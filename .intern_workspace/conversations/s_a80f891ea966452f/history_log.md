@@ -667,10 +667,18 @@
       "revision": 13787,
       "task_id": null,
       "turn_id": "turn_806"
+    },
+    {
+      "at": "2026-10-29T16:03:47.834Z",
+      "event_id": "event_13788",
+      "phase": "complete",
+      "revision": 13788,
+      "task_id": null,
+      "turn_id": "turn_806"
     }
   ],
   "kind": "history",
-  "revision": 13787,
+  "revision": 13788,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -761,3 +769,4 @@
 - 2026-10-29T16:03:40.192Z | received | turn_806
 - 2026-10-29T16:03:40.314Z | running | turn_806
 - 2026-10-29T16:03:41.023Z | running | turn_806
+- 2026-10-29T16:03:47.834Z | complete | turn_806
