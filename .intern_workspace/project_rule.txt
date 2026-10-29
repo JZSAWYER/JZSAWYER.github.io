@@ -1,0 +1,2 @@
+Use this bot's registered workspace and permanent branch. Follow AGENTS.md and user-owned instructions.
+Keep code and Markdown history together. Named tasks do not create branches. Never create PRs without explicit user instruction.
