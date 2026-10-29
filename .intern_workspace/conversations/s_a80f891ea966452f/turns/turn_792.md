@@ -3,7 +3,7 @@
 <!-- intern-agent.record.v2
 {
   "activity": "completed",
-  "code_end": null,
+  "code_end": "075e2a60be592321c2a0aa3ce9e724b50e9f3e79",
   "code_start": "386f8e7d5a5b1b1daed008dfa6c58dbb99e21dcc",
   "completed_at": "2026-10-29T15:55:27.883Z",
   "conversation_id": "s_a80f891ea966452f",
@@ -15,12 +15,12 @@
     "Recovery repaired the oversized generated preview packaging under the existing upload policy. Resume only saved-result recording and delivery through the normal guarded queue; retain the original prompt, result, immutable code_start and baseline, and existing file-delivery receipt."
   ],
   "kind": "turn",
-  "phase": "result_ready",
+  "phase": "complete",
   "received_at": "2026-10-29T15:23:33.633Z",
-  "revision": 13889,
+  "revision": 13894,
   "schema": "intern-agent.record.v2",
   "source": "goal",
-  "sync": "blocked",
+  "sync": "synced",
   "task_id": null,
   "turn_id": "turn_792",
   "workspace": "homepage"

@@ -6,10 +6,10 @@
   "conversation_id": "s_a80f891ea966452f",
   "kind": "conversation",
   "mode": "idle",
-  "revision": 13890,
+  "revision": 13895,
   "schema": "intern-agent.record.v2",
   "task_id": null,
-  "updated_at": "2026-10-29T16:29:18.499Z",
+  "updated_at": "2026-10-29T16:30:16.992Z",
   "workspace": "homepage"
 }
 -->
