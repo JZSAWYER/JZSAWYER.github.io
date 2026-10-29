@@ -58,8 +58,14 @@ extract `homepage-preview.html` and open it in a browser. This lossless archive
 keeps the embedded assets and review styling intact and passes the existing
 Git size and privacy guards. It does not publish or deploy the website.
 Generate it from a fresh Jekyll build outside the checkout, embedding local
-styles, scripts, images, and fonts. Normalize section links for opening the file
-directly and omit analytics and visitor counters from the review artifact.
+styles, scripts, images, and fonts. Use the versioned
+[preview packager](preview/package_preview.py) with a build directory and output
+HTML path. Normalize section links for opening the file directly and omit
+unrelated analytics. Preserve the original FlagCounter and ClustrMaps widgets
+at the end of both the source homepage and its preview. The preview embeds a
+real counter snapshot for offline viewing and refreshes it after the live image
+loads. The ClustrMaps script uses explicit HTTPS for local-file compatibility
+and needs internet access.
 The original site templates and styles remain the source for publication.
 
 The current content draft uses **third-year Ph.D. student**, includes seven LLM
@@ -112,9 +118,10 @@ checked in rendered HTML. Section links open in the current tab.
 The Jekyll build and standalone HTML checks pass for seven publication cards,
 four/three topic groups, eight news entries, all seven navigation links, the
 requested professor names, removed content, and local assets. The standalone
-preview embeds 18 images and has no external script or stylesheet dependency.
-All 40 browser checks passed in headless Chromium 102 at widths 320, 390, 768,
-and 1440 pixels, with no console or script errors. Checks also verify loaded
+preview embeds 19 images, including the country-counter snapshot. Fonts and
+styles are embedded; the original ClustrMaps widget is the sole external script.
+The typography and interaction revision passed all 40 browser checks in headless Chromium 102 at widths 320, 390, 768,
+and 1440 pixels. Those checks verify loaded
 Source Sans 3 regular/semibold faces, embedded font sources, and the requested
 wording corrections. Other checks cover filters, native disclosures, menu keyboard behavior,
 skip-link focus, sticky-header clearance, active navigation, image loading,
@@ -122,6 +129,13 @@ reduced motion, no-JavaScript content, and horizontal overflow. The theme
 scrolling handler is disabled on the homepage so native focus and scroll
 margins work. The test host lacks CJK and emoji fonts; screenshot review uses
 temporary fallback fonts without adding CJK or emoji font assets to the site.
+The visitor footer passed 14 focused checks online and with network access
+blocked, including visible counts, placement, and no overflow at desktop and
+mobile widths.
+The FlagCounter image endpoint responds successfully; ClustrMaps currently
+fails to establish a connection from the test environment. Its original widget
+configuration remains included, but map rendering could not be verified here.
+The counter snapshot and link to the full statistics remain usable.
 Repository dependency files and tracked `_site/` output are preserved; no publication,
 deployment, pull request, merge, or hosting changes are part of this review.
 

@@ -306,6 +306,13 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     font-size: .8rem;
     text-decoration: none;
   }
+  .visitor-stats {
+    margin: 3rem 0 2rem;
+    h2 { margin-bottom: 1rem; }
+    img { display: block; max-width: 100%; height: auto; }
+    .visitor-map { width: 486px; max-width: 100%; margin-top: 1.5rem; }
+    .visitor-map > div, .visitor-map iframe, .visitor-map canvas, .visitor-map svg { max-width: 100%; }
+  }
 
   @media (min-width: 925px) {
     #main { display: grid; grid-template-columns: 205px minmax(0, 1fr); gap: 3rem; }

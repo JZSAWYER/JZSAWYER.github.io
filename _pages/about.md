@@ -46,9 +46,15 @@ redirect_from:
 
 </div>
 
-<a href="https://info.flagcounter.com/RpBh"><img src="https://s01.flagcounter.com/countxl/RpBh/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_30/viewers_0/labels_1/pageviews_1/flags_1/percent_0/" alt="Free counters!" border="0"></a>
+<div class="visitor-stats" id="visitor-stats" aria-labelledby="visitor-stats-heading">
+<h2 id="visitor-stats-heading">Visitor statistics</h2>
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=486&t=tt&d=delbcR5F-4JyHOBOX_RBwwElRbRXtcFtYvUEyDbPl60&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+<a href="https://info.flagcounter.com/RpBh"><img src="https://s01.flagcounter.com/countxl/RpBh/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_30/viewers_0/labels_1/pageviews_1/flags_1/percent_0/" alt="Visitor statistics by country" border="0"></a>
+
+<div class="visitor-map">
+<script type='text/javascript' id='clustrmaps' src='https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=486&t=tt&d=delbcR5F-4JyHOBOX_RBwwElRbRXtcFtYvUEyDbPl60&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
+</div>
+</div>
 
 <a class="back-to-top" href="#about-me" target="_self" aria-label="Back to top" hidden>↑ Top</a>
 
