@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 13727,
+  "revision": 13776,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -20,6 +20,8 @@
   > use third-year instead, and can you provide a html before publish for me to preview? execuete
 - [turn_792 | record_blocked / completed | Git: blocked](turns/turn_792.md#response)
   > Continue the saved owner goal. Check current evidence, remaining work and the next useful action. Use the goal checkpoint tool before finishing; do not repla…
+- [turn_803 | cancelled / stopped | Git: pending](turns/turn_803.md#response)
+  > place internships in front of the publications and you may remove all aifor science on the homepage, including interstests and publications, and split the pu…
 
 ## All activity
 

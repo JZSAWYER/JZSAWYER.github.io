@@ -571,10 +571,58 @@
       "revision": 13727,
       "task_id": null,
       "turn_id": "turn_791"
+    },
+    {
+      "at": "2026-10-29T16:02:57.361Z",
+      "event_id": "event_13771",
+      "phase": "received",
+      "revision": 13771,
+      "task_id": null,
+      "turn_id": "turn_803"
+    },
+    {
+      "at": "2026-10-29T16:03:01.746Z",
+      "event_id": "event_13772",
+      "phase": "received",
+      "revision": 13772,
+      "task_id": null,
+      "turn_id": "turn_804"
+    },
+    {
+      "at": "2026-10-29T16:03:01.749Z",
+      "event_id": "event_13773",
+      "phase": "running",
+      "revision": 13773,
+      "task_id": null,
+      "turn_id": "turn_804"
+    },
+    {
+      "at": "2026-10-29T16:03:01.754Z",
+      "event_id": "event_13774",
+      "phase": "stop_requested",
+      "revision": 13774,
+      "task_id": null,
+      "turn_id": "turn_803"
+    },
+    {
+      "at": "2026-10-29T16:03:04.900Z",
+      "event_id": "event_13775",
+      "phase": "cancelled",
+      "revision": 13775,
+      "task_id": null,
+      "turn_id": "turn_803"
+    },
+    {
+      "at": "2026-10-29T16:03:04.901Z",
+      "event_id": "event_13776",
+      "phase": "complete",
+      "revision": 13776,
+      "task_id": null,
+      "turn_id": "turn_804"
     }
   ],
   "kind": "history",
-  "revision": 13727,
+  "revision": 13776,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -653,3 +701,9 @@
 - 2026-10-29T15:55:29.854Z | result_ready | turn_792
 - 2026-10-29T15:55:29.927Z | record_blocked | turn_792
 - 2026-10-29T15:55:29.943Z | complete | turn_791
+- 2026-10-29T16:02:57.361Z | received | turn_803
+- 2026-10-29T16:03:01.746Z | received | turn_804
+- 2026-10-29T16:03:01.749Z | running | turn_804
+- 2026-10-29T16:03:01.754Z | stop_requested | turn_803
+- 2026-10-29T16:03:04.900Z | cancelled | turn_803
+- 2026-10-29T16:03:04.901Z | complete | turn_804
