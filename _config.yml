@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Haitian Zhong(仲海天)"
-description              : "Hi! I am a second-year Ph.D. student at NLPR, CASIA, supervised by Prof. Tieniu Tan & Prof. Qiang Liu. Formerly a research assistant at Microsoft Research Asia."
+description              : "Hi! I am a third-year Ph.D. student at NLPR, CASIA, working on LLM post-training, reliable agents, reasoning evaluation, and knowledge editing."
 repository               : "JZSAWYER/JZSAWYER.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -148,7 +148,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-  - tzinfo-data
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
