@@ -883,10 +883,162 @@
       "revision": 13897,
       "task_id": null,
       "turn_id": null
+    },
+    {
+      "at": "2026-10-29T16:30:36.203Z",
+      "event_id": "event_13898",
+      "phase": "received",
+      "revision": 13898,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T16:30:36.334Z",
+      "event_id": "event_13899",
+      "phase": "running",
+      "revision": 13899,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T16:30:41.267Z",
+      "event_id": "event_13900",
+      "phase": "code_snapshot",
+      "revision": 13900,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T16:30:41.268Z",
+      "event_id": "event_13901",
+      "phase": "running",
+      "revision": 13901,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T16:31:20.191Z",
+      "event_id": "event_13902",
+      "phase": "memory",
+      "revision": 13902,
+      "task_id": null,
+      "turn_id": null
+    },
+    {
+      "at": "2026-10-29T16:34:35.344Z",
+      "event_id": "event_13903",
+      "phase": "memory",
+      "revision": 13903,
+      "task_id": null,
+      "turn_id": null
+    },
+    {
+      "at": "2026-10-29T16:35:59.227Z",
+      "event_id": "event_13908",
+      "phase": "evidence",
+      "revision": 13908,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T16:36:21.602Z",
+      "event_id": "event_13909",
+      "phase": "memory",
+      "revision": 13909,
+      "task_id": null,
+      "turn_id": null
+    },
+    {
+      "at": "2026-10-29T16:36:28.011Z",
+      "event_id": "event_13910",
+      "phase": "evidence",
+      "revision": 13910,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T16:36:28.079Z",
+      "event_id": "event_13911",
+      "phase": "evidence",
+      "revision": 13911,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T16:36:28.080Z",
+      "event_id": "event_13912",
+      "phase": "running",
+      "revision": 13912,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T16:36:29.389Z",
+      "event_id": "event_13913",
+      "phase": "result_ready",
+      "revision": 13913,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T16:36:30.548Z",
+      "event_id": "event_13914",
+      "phase": "record_blocked",
+      "revision": 13914,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T16:39:28.557Z",
+      "event_id": "event_13919",
+      "phase": "received",
+      "revision": 13919,
+      "task_id": null,
+      "turn_id": "turn_820"
+    },
+    {
+      "at": "2026-10-29T16:54:25.376Z",
+      "event_id": "event_13942",
+      "phase": "evidence",
+      "revision": 13942,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T18:20:16.762Z",
+      "event_id": "event_13999",
+      "phase": "evidence",
+      "revision": 13999,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T18:20:29.116Z",
+      "event_id": "event_14000",
+      "phase": "record_blocked",
+      "revision": 14000,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T18:20:29.125Z",
+      "event_id": "event_14001",
+      "phase": "reply_ready",
+      "revision": 14001,
+      "task_id": null,
+      "turn_id": "turn_817"
+    },
+    {
+      "at": "2026-10-29T18:20:29.141Z",
+      "event_id": "event_14002",
+      "phase": "preparing_reply",
+      "revision": 14002,
+      "task_id": null,
+      "turn_id": "turn_817"
     }
   ],
   "kind": "history",
-  "revision": 13897,
+  "revision": 14002,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -1004,3 +1156,22 @@
 - 2026-10-29T16:30:16.992Z | preparing_reply | turn_792
 - 2026-10-29T16:30:29.801Z | complete | turn_792
 - 2026-10-29T16:30:30.952Z | memory | conversation
+- 2026-10-29T16:30:36.203Z | received | turn_817
+- 2026-10-29T16:30:36.334Z | running | turn_817
+- 2026-10-29T16:30:41.267Z | code_snapshot | turn_817
+- 2026-10-29T16:30:41.268Z | running | turn_817
+- 2026-10-29T16:31:20.191Z | memory | conversation
+- 2026-10-29T16:34:35.344Z | memory | conversation
+- 2026-10-29T16:35:59.227Z | evidence | turn_817
+- 2026-10-29T16:36:21.602Z | memory | conversation
+- 2026-10-29T16:36:28.011Z | evidence | turn_817
+- 2026-10-29T16:36:28.079Z | evidence | turn_817
+- 2026-10-29T16:36:28.080Z | running | turn_817
+- 2026-10-29T16:36:29.389Z | result_ready | turn_817
+- 2026-10-29T16:36:30.548Z | record_blocked | turn_817
+- 2026-10-29T16:39:28.557Z | received | turn_820
+- 2026-10-29T16:54:25.376Z | evidence | turn_817
+- 2026-10-29T18:20:16.762Z | evidence | turn_817
+- 2026-10-29T18:20:29.116Z | record_blocked | turn_817
+- 2026-10-29T18:20:29.125Z | reply_ready | turn_817
+- 2026-10-29T18:20:29.141Z | preparing_reply | turn_817

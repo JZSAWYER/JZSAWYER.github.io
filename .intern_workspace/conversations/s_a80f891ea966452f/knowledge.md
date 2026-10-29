@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 13897,
+  "revision": 14002,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -24,6 +24,8 @@
   > place internships in front of the publications and you may remove all aifor science on the homepage, including interstests and publications, and split the pu…
 - [turn_807 | complete / completed | Git: synced](turns/turn_807.md#response)
   > place internships in front of the publications and you may remove all aifor science on the homepage, including interstests and publications, and split the pu…
+- [turn_817 | complete / completed | Git: synced](turns/turn_817.md#response)
+  > the fonts are too ugly, and dont say reliabel agents, agentic RL is better A collaborative work with [Han Huang (黄瀚)](https://hyman25.github.io/), advised by…
 
 ## All activity
 
