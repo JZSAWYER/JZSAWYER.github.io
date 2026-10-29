@@ -10,12 +10,14 @@
   "evidence": [
     "Delivered file homepage-preview.html; SHA256 327cc2f7469ab92c02a71ff546ea85b443e65fc00a77c4ed71ab1501c0b24ade",
     "Codex observed turn/completed status completed",
-    "Observed bound Codex transcript task_complete for turn 01a18842-752f-7863-b3bf-cd626fd2b4cd"
+    "Observed bound Codex transcript task_complete for turn 01a18842-752f-7863-b3bf-cd626fd2b4cd",
+    "Recovery verified this exact Codex turn completed. Its standalone HTML already has a file-delivery receipt. Preserved all original HTML bytes and website source changes; versioned a lossless ZIP within the existing Git limit and excluded only the untracked generated HTML. Archive extraction matches the original SHA256; existing privacy/archive guards passed. No Codex replay, job restart or website deployment.",
+    "Recovery repaired the oversized generated preview packaging under the existing upload policy. Resume only saved-result recording and delivery through the normal guarded queue; retain the original prompt, result, immutable code_start and baseline, and existing file-delivery receipt."
   ],
   "kind": "turn",
-  "phase": "record_blocked",
+  "phase": "result_ready",
   "received_at": "2026-10-29T15:23:33.633Z",
-  "revision": 13726,
+  "revision": 13889,
   "schema": "intern-agent.record.v2",
   "source": "goal",
   "sync": "blocked",
@@ -42,3 +44,5 @@
 > Delivered file homepage-preview.html; SHA256 327cc2f7469ab92c02a71ff546ea85b443e65fc00a77c4ed71ab1501c0b24ade
 > Codex observed turn/completed status completed
 > Observed bound Codex transcript task_complete for turn 01a18842-752f-7863-b3bf-cd626fd2b4cd
+> Recovery verified this exact Codex turn completed. Its standalone HTML already has a file-delivery receipt. Preserved all original HTML bytes and website source changes; versioned a lossless ZIP within the existing Git limit and excluded only the untracked generated HTML. Archive extraction matches the original SHA256; existing privacy/archive guards passed. No Codex replay, job restart or website deployment.
+> Recovery repaired the oversized generated preview packaging under the existing upload policy. Resume only saved-result recording and delivery through the normal guarded queue; retain the original prompt, result, immutable code_start and baseline, and existing file-delivery receipt.

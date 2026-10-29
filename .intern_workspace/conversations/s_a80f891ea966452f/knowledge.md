@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 13788,
+  "revision": 13890,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -18,9 +18,11 @@
   > refer to this and my scholar: Add co-authors We have co-authors suggestions. Cited by All Since 2021 Citations 94 94 h-index 4 4 i10-index 2 2 0 60 30 202420…
 - [turn_787 | complete / completed | Git: synced](turns/turn_787.md#response)
   > use third-year instead, and can you provide a html before publish for me to preview? execuete
-- [turn_792 | record_blocked / completed | Git: blocked](turns/turn_792.md#response)
+- [turn_792 | result_ready / completed | Git: blocked](turns/turn_792.md#response)
   > Continue the saved owner goal. Check current evidence, remaining work and the next useful action. Use the goal checkpoint tool before finishing; do not repla…
 - [turn_803 | cancelled / stopped | Git: pending](turns/turn_803.md#response)
+  > place internships in front of the publications and you may remove all aifor science on the homepage, including interstests and publications, and split the pu…
+- [turn_807 | complete / completed | Git: synced](turns/turn_807.md#response)
   > place internships in front of the publications and you may remove all aifor science on the homepage, including interstests and publications, and split the pu…
 
 ## All activity
