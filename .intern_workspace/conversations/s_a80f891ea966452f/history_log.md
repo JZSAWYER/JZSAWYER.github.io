@@ -459,10 +459,122 @@
       "revision": 13627,
       "task_id": null,
       "turn_id": "turn_791"
+    },
+    {
+      "at": "2026-10-29T15:23:33.635Z",
+      "event_id": "event_13628",
+      "phase": "received",
+      "revision": 13628,
+      "task_id": null,
+      "turn_id": "turn_792"
+    },
+    {
+      "at": "2026-10-29T15:23:33.776Z",
+      "event_id": "event_13629",
+      "phase": "running",
+      "revision": 13629,
+      "task_id": null,
+      "turn_id": "turn_792"
+    },
+    {
+      "at": "2026-10-29T15:23:39.131Z",
+      "event_id": "event_13630",
+      "phase": "code_snapshot",
+      "revision": 13630,
+      "task_id": null,
+      "turn_id": "turn_792"
+    },
+    {
+      "at": "2026-10-29T15:23:39.132Z",
+      "event_id": "event_13631",
+      "phase": "running",
+      "revision": 13631,
+      "task_id": null,
+      "turn_id": "turn_792"
+    },
+    {
+      "at": "2026-10-29T15:26:32.744Z",
+      "event_id": "event_13642",
+      "phase": "memory",
+      "revision": 13642,
+      "task_id": null,
+      "turn_id": null
+    },
+    {
+      "at": "2026-10-29T15:40:09.720Z",
+      "event_id": "event_13693",
+      "phase": "memory",
+      "revision": 13693,
+      "task_id": null,
+      "turn_id": null
+    },
+    {
+      "at": "2026-10-29T15:54:07.022Z",
+      "event_id": "event_13720",
+      "phase": "evidence",
+      "revision": 13720,
+      "task_id": null,
+      "turn_id": "turn_792"
+    },
+    {
+      "at": "2026-10-29T15:55:10.044Z",
+      "event_id": "event_13721",
+      "phase": "memory",
+      "revision": 13721,
+      "task_id": null,
+      "turn_id": null
+    },
+    {
+      "at": "2026-10-29T15:55:27.814Z",
+      "event_id": "event_13722",
+      "phase": "evidence",
+      "revision": 13722,
+      "task_id": null,
+      "turn_id": "turn_792"
+    },
+    {
+      "at": "2026-10-29T15:55:27.882Z",
+      "event_id": "event_13723",
+      "phase": "evidence",
+      "revision": 13723,
+      "task_id": null,
+      "turn_id": "turn_792"
+    },
+    {
+      "at": "2026-10-29T15:55:27.883Z",
+      "event_id": "event_13724",
+      "phase": "running",
+      "revision": 13724,
+      "task_id": null,
+      "turn_id": "turn_792"
+    },
+    {
+      "at": "2026-10-29T15:55:29.854Z",
+      "event_id": "event_13725",
+      "phase": "result_ready",
+      "revision": 13725,
+      "task_id": null,
+      "turn_id": "turn_792"
+    },
+    {
+      "at": "2026-10-29T15:55:29.927Z",
+      "event_id": "event_13726",
+      "phase": "record_blocked",
+      "revision": 13726,
+      "task_id": null,
+      "turn_id": "turn_792"
+    },
+    {
+      "at": "2026-10-29T15:55:29.943Z",
+      "event_id": "event_13727",
+      "phase": "complete",
+      "revision": 13727,
+      "task_id": null,
+      "turn_id": "turn_791"
     }
   ],
   "kind": "history",
-  "revision": 13627,
+  "revision": 13727,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -527,3 +639,17 @@
 - 2026-10-29T15:23:26.024Z | running | turn_791
 - 2026-10-29T15:23:26.458Z | memory | conversation
 - 2026-10-29T15:23:26.521Z | running | turn_791
+- 2026-10-29T15:23:33.635Z | received | turn_792
+- 2026-10-29T15:23:33.776Z | running | turn_792
+- 2026-10-29T15:23:39.131Z | code_snapshot | turn_792
+- 2026-10-29T15:23:39.132Z | running | turn_792
+- 2026-10-29T15:26:32.744Z | memory | conversation
+- 2026-10-29T15:40:09.720Z | memory | conversation
+- 2026-10-29T15:54:07.022Z | evidence | turn_792
+- 2026-10-29T15:55:10.044Z | memory | conversation
+- 2026-10-29T15:55:27.814Z | evidence | turn_792
+- 2026-10-29T15:55:27.882Z | evidence | turn_792
+- 2026-10-29T15:55:27.883Z | running | turn_792
+- 2026-10-29T15:55:29.854Z | result_ready | turn_792
+- 2026-10-29T15:55:29.927Z | record_blocked | turn_792
+- 2026-10-29T15:55:29.943Z | complete | turn_791
