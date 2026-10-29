@@ -411,10 +411,26 @@
       "revision": 13607,
       "task_id": null,
       "turn_id": "turn_787"
+    },
+    {
+      "at": "2026-10-29T15:19:07.665Z",
+      "event_id": "event_13608",
+      "phase": "complete",
+      "revision": 13608,
+      "task_id": null,
+      "turn_id": "turn_787"
+    },
+    {
+      "at": "2026-10-29T15:19:08.939Z",
+      "event_id": "event_13609",
+      "phase": "memory",
+      "revision": 13609,
+      "task_id": null,
+      "turn_id": null
     }
   ],
   "kind": "history",
-  "revision": 13607,
+  "revision": 13609,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -473,3 +489,5 @@
 - 2026-10-29T15:18:55.687Z | result_ready | turn_787
 - 2026-10-29T15:18:55.695Z | reply_ready | turn_787
 - 2026-10-29T15:18:55.700Z | preparing_reply | turn_787
+- 2026-10-29T15:19:07.665Z | complete | turn_787
+- 2026-10-29T15:19:08.939Z | memory | conversation
