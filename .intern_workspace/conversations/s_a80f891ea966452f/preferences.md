@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 12981,
+  "revision": 12990,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -19,7 +19,7 @@
 >   "conversation": "s_a80f891ea966452f",
 >   "fast": null,
 >   "goal_selection": null,
->   "lifecycle": "creating",
+>   "lifecycle": "ready",
 >   "model": {
 >     "effort": "xhigh",
 >     "model": "gpt-6.1-sol"
