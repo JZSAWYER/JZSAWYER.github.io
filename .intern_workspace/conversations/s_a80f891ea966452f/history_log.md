@@ -163,10 +163,18 @@
       "revision": 13540,
       "task_id": null,
       "turn_id": null
+    },
+    {
+      "at": "2026-10-29T14:37:07.988Z",
+      "event_id": "event_13541",
+      "phase": "complete",
+      "revision": 13541,
+      "task_id": null,
+      "turn_id": "turn_782"
     }
   ],
   "kind": "history",
-  "revision": 13540,
+  "revision": 13541,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -194,3 +202,4 @@
 - 2026-10-29T14:36:55.651Z | running | turn_782
 - 2026-10-29T14:37:01.153Z | running | turn_782
 - 2026-10-29T14:37:01.156Z | memory | conversation
+- 2026-10-29T14:37:07.988Z | complete | turn_782
