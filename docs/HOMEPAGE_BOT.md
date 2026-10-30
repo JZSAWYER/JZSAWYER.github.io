@@ -186,6 +186,19 @@ GitHub Pages checks and the live site can be verified after the owner's merge.
 The earlier publication ZIP remains a historical reviewed-patch artifact.
 Its old instructions are superseded by the clean-branch PR workflow above.
 
+## Private recruitment document exports
+
+When the owner requests a private CV, keep generated documents, source text,
+and validation notes under the ignored `docs/private-cv/` directory. Do not
+commit uploaded resumes or personal recruitment documents to this public
+repository. Use explicit field labels and ordinary Unicode text for parsing;
+keep missing dates and qualifications unfilled rather than inventing them.
+Check that generated Word and PDF text round-trips to the source text, and
+visually inspect the PDF. A local text extraction check does not establish
+compatibility with every recruitment system. Deliver files through the bound
+conversation's owner-authorized file-transfer workflow. A private CV request
+does not itself authorize site edits or publication.
+
 ## Publication figure sources
 
 New thumbnails reproduce the original figures at reduced size; scientific

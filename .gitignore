@@ -3,3 +3,6 @@ push.sh
 
 # Version the lossless ZIP; retain the delivered standalone HTML locally.
 /docs/preview/*.html
+
+# Keep private recruitment document exports out of the public repository.
+/docs/private-cv/
