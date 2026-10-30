@@ -154,6 +154,13 @@ installed workspace Git guard, which permits only the registered bot branch.
 The restriction was rechecked after the latest publication request and remains
 in place. This is a publishing-path restriction, not a reported site build
 failure. No guard or protection was changed or bypassed.
+The same allowlist rejects an additional clean publishing branch such as
+`homepage-update`; preparing a site-only diff does not register a new push
+destination. This combined code/history workspace permits exactly its permanent
+bot branch. The exposed relay commands provide no established publication route
+for this additional branch. An approved publisher or workspace administrator
+must supply that route; owner approval of the content alone does not change the
+installed binding.
 
 [homepage-publication.zip](preview/homepage-publication.zip) contains a binary
 patch against that `main` commit and application instructions. It includes only
