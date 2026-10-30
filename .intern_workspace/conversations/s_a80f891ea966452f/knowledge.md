@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14166,
+  "revision": 14177,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -40,6 +40,8 @@
   > Continue the saved owner goal. Check current evidence, remaining work and the next useful action. Use the goal checkpoint tool before finishing; do not repla…
 - [turn_840 | complete / completed | Git: synced](turns/turn_840.md#response)
   > instead of providing a zip, maybe you can provide command i can execute on the server, i dont know how to use the zip
+- [turn_841 | complete / completed | Git: synced](turns/turn_841.md#response)
+  > can i use pr to merge to main?
 
 ## All activity
 
