@@ -1,8 +1,8 @@
-"""Embed homepage assets in one review HTML file with Busuanzi totals.
+"""Embed homepage assets in one review HTML file, retaining visitor widgets.
 
 Usage: python docs/preview/package_preview.py BUILD_DIRECTORY OUTPUT_HTML
-Requires BeautifulSoup and requests. Local previews do not request counts for a
-different domain or invent statistics; live Busuanzi counts use the website host.
+Requires BeautifulSoup and requests. Visitor widgets refresh with internet access;
+the country counter also includes a snapshot for offline viewing.
 """
 import base64
 import mimetypes
@@ -55,32 +55,30 @@ for link in list(soup.select('link[rel~="stylesheet"]')):
 for script in list(soup.find_all('script')):
     src = script.get('src')
     if src:
-        if script.get('id') == 'busuanzi-script' and src == 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js':
-            # The downloaded HTML has no website referrer. Only request live
-            # statistics when this file is served on the actual homepage host.
-            del script['src']
-            script.string = """(function () {
-  if (location.protocol === 'https:' && location.hostname === 'jzsawyer.github.io') {
-    var widget = document.createElement('script');
-    widget.async = true;
-    widget.src = 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
-    document.head.appendChild(widget);
-    document.querySelector('.visitor-stats__note').hidden = true;
-  }
-}());"""
+        if script.get('id') == 'clustrmaps' and urlsplit('https:' + src if src.startswith('//') else src).hostname == 'cdn.clustrmaps.com':
+            script['src'] = 'https:' + src if src.startswith('//') else src
             continue
         path = local_path(src)
         if path and path.is_file():
             del script['src']
             script.string = path.read_text().replace('</script', '<\\/script')
         else:
-            # Omit unrelated remote scripts and analytics.
+            # Keep the requested visitor map; omit unrelated remote scripts.
             script.decompose()
     elif script.get('type') == 'text/x-mathjax-config' or any(marker in script.get_text() for marker in ('google_scholar', 'google-scholar-stats', 'gsDataBaseUrl')):
         script.decompose()
 
 for image in list(soup.find_all('img')):
     src = image.get('src', '')
+    if urlsplit(src).hostname == 's01.flagcounter.com':
+        response = requests.get(src, timeout=20)
+        response.raise_for_status()
+        if not response.headers.get('Content-Type', '').startswith('image/'):
+            raise ValueError('Visitor counter did not return an image')
+        mime = response.headers['Content-Type'].split(';')[0]
+        image['data-live-counter'] = src
+        image['src'] = f'data:{mime};base64,' + base64.b64encode(response.content).decode('ascii')
+        continue
     path = local_path(src)
     if path and path.is_file():
         image['src'] = data_uri(path)
@@ -115,12 +113,16 @@ for anchor in soup.select('a[href]'):
     elif not urlsplit(href).scheme and not href.startswith('//'):
         anchor['href'] = urljoin(public_site, href)
 
-# Mark unavailable local totals explicitly instead of displaying sample numbers.
-stats = soup.select_one('.visitor-stats')
-if stats:
-    note = soup.new_tag('p', attrs={'class': 'visitor-stats__note'})
-    note.string = 'Preview — live totals appear on the published site.'
-    stats.insert(2, note)
+# Retain the embedded snapshot if offline; replace it only after a live image loads.
+refresh = soup.new_tag('script')
+refresh.string = """(function () {
+  document.querySelectorAll('img[data-live-counter]').forEach(function (counter) {
+    var live = new Image();
+    live.onload = function () { counter.src = live.src; };
+    live.src = counter.getAttribute('data-live-counter');
+  });
+}());"""
+soup.body.append(refresh)
 
 # The site uses MathJax only for ordinal numbers in the awards list.
 for text in list(soup.find_all(string=re.compile(r'\$\d+\^\{th\}\$'))):

@@ -61,18 +61,21 @@ Generate it from a fresh Jekyll build outside the checkout, embedding local
 styles, scripts, images, and fonts. Use the versioned
 [preview packager](preview/package_preview.py) with a build directory and output
 HTML path. Normalize section links for opening the file directly and omit
-unrelated analytics. Visitor statistics use **Busuanzi** for aggregate pageviews
-and visitors only. Do not include country flags, location breakdowns, or a map.
-The previous visitor widgets and their snapshots are removed from the preview.
-Busuanzi uses its own counting history; previous-provider figures are not copied
-into the new totals. Follow the [official integration guide](https://ibruce.info/2015/04/04/busuanzi/)
-for the `busuanzi_value_site_pv` and `busuanzi_value_site_uv` elements.
+unrelated analytics. The currently approved publication version uses the full
+FlagCounter and existing ClustrMaps footer. The preview embeds a genuine
+country-counter snapshot for offline viewing, then refreshes it after a live
+image loads. The map requires internet access. The Busuanzi draft remains an
+alternative and is not the selected publication version.
 
-Local review HTML shows em dashes and a preview note because its file/localhost
-origin cannot represent the published website's visitor totals. The packager
-retains a loader that requests live Busuanzi counts only on the canonical HTTPS
-website hostname. Do not insert sample counts into the delivered preview or
-request live production counts while testing a local file.
+A separate [Mini-counter preview](preview/homepage-counter-alternative.zip)
+uses FlagCounter's documented pageviews-only mode with the existing counter ID.
+It removes the country table and map from the homepage while keeping the
+provider's required link to its statistical information. That linked provider
+page can still show geographic data. No supported per-entry exclusion was
+verified in the public [FAQ](https://s03.flagcounter.com/faq.html), code generator,
+or Pro feature list. Do not treat `flags_0` on the full counter as a geographic
+filter; it hides the number of collected flags, not individual rows. The Mini
+endpoint is the documented aggregate-only display.
 The original site templates and styles remain the source for publication.
 
 The current content draft uses **third-year Ph.D. student**, includes seven LLM
@@ -125,8 +128,9 @@ checked in rendered HTML. Section links open in the current tab.
 The Jekyll build and standalone HTML checks pass for seven publication cards,
 four/three topic groups, eight news entries, all seven navigation links, the
 requested professor names, removed content, and local assets. The standalone
-preview embeds 18 images. Fonts, images, styles, and local scripts are embedded;
-Busuanzi loads separately when served on the canonical website domain.
+approved FlagCounter preview embeds 19 images. Fonts and styles are embedded;
+ClustrMaps is the only external script. The separate Mini preview embeds its
+pageviews image and uses no map script.
 The typography and interaction revision passed all 40 browser checks in headless Chromium 102 at widths 320, 390, 768,
 and 1440 pixels. Those checks verify loaded
 Source Sans 3 regular/semibold faces, embedded font sources, and the requested
@@ -136,15 +140,32 @@ reduced motion, no-JavaScript content, and horizontal overflow. The theme
 scrolling handler is disabled on the homepage so native focus and scroll
 margins work. The test host lacks CJK and emoji fonts; screenshot review uses
 temporary fallback fonts without adding CJK or emoji font assets to the site.
-The Busuanzi footer passed 17 focused checks, including placement after
-Education, local/no-JavaScript placeholders, no former widgets or country
-content, no local production-count requests, and no overflow at widths 320,
-390, and 1440 pixels. The official provider script returned HTTP 200. Its JSONP
-integration was verified with intercepted fixture responses on a simulated
-canonical origin; fixture values exist only in private QA and are absent from
-the preview. Live production totals have not been requested or validated.
-Repository dependency files and tracked `_site/` output are preserved; no publication,
-deployment, pull request, merge, or hosting changes are part of this review.
+The restored FlagCounter source matches the previously reviewed version and
+passes a fresh Jekyll build. The Mini alternative passed 17 focused browser
+checks online and offline at widths 320, 390, and 1440: correct counter ID,
+pageviews-only endpoint, loaded live/snapshot image, retained provider link,
+no map, no overflow, and no JavaScript errors. Desktop/mobile screenshots were
+reviewed. ClustrMaps remains unreachable from the test environment, so its
+rendering is unverified.
+
+## Publication handoff
+
+Publication of the approved FlagCounter version is owner-authorized. The public
+GitHub Actions history confirms Pages builds from `main`; the latest successful
+run uses commit `51d871249005c7e0061f7a802d64a66958df208a`. The live site still
+shows the older homepage. A guarded dry-run push to `main` was rejected by the
+installed workspace Git guard, which permits only the registered bot branch.
+No guard or protection was changed or bypassed.
+
+[homepage-publication.zip](preview/homepage-publication.zip) contains a binary
+patch against that `main` commit and application instructions. It includes only
+the reviewed site sources, font licenses, and used new publication figures.
+It excludes management records, preview artifacts, private attachments, and
+unused draft figures. Applying the patch to the base index was checked without
+changing the working branch. An operator with an approved publishing path must
+apply/commit/push the patch and verify the Pages build and live site. Actual
+publication remains unfinished; restoring files or uploading this bot branch
+is not evidence of deployment.
 
 ## Publication figure sources
 

@@ -2,4 +2,4 @@ push.sh
 .DS_Store
 
 # Version the lossless ZIP; retain the delivered standalone HTML locally.
-/docs/preview/homepage-preview.html
+/docs/preview/*.html

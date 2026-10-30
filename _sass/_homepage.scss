@@ -309,12 +309,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   .visitor-stats {
     margin: 3rem 0 2rem;
     h2 { margin-bottom: 1rem; }
-    &__totals { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 450px; border: 1px solid #e0e9ed; border-radius: 10px; }
-    .visitor-stat { padding: 1rem 1.25rem; }
-    .visitor-stat + .visitor-stat { border-left: 1px solid #e0e9ed; }
-    .visitor-stat__label { display: block; color: #596e7a; font-size: 1rem; }
-    .visitor-stat__value { display: block; color: #193749; font-size: 2.1rem; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
-    &__credit, &__note { margin-top: .65rem; color: #596e7a; font-size: .9rem; }
+    img { display: block; max-width: 100%; height: auto; }
+    .visitor-map { width: 486px; max-width: 100%; margin-top: 1.5rem; }
+    .visitor-map > div, .visitor-map iframe, .visitor-map canvas, .visitor-map svg { max-width: 100%; }
   }
 
   @media (min-width: 925px) {
