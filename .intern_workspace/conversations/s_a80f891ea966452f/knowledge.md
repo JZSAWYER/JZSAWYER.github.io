@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14020,
+  "revision": 14079,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -28,6 +28,8 @@
   > the fonts are too ugly, and dont say reliabel agents, agentic RL is better A collaborative work with [Han Huang (黄瀚)](https://hyman25.github.io/), advised by…
 - [turn_820 | complete / completed | Git: synced](turns/turn_820.md#response)
   > you foget the view people stats at the end
+- [turn_830 | complete / completed | Git: synced](turns/turn_830.md#response)
+  > the flag counter has Taiwan, i dont want this, any other stats avoiding TW
 
 ## All activity
 
