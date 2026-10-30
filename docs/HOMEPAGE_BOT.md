@@ -165,6 +165,47 @@ apply/commit/push the patch and verify the Pages build and live site. Actual
 publication remains unfinished; restoring files or uploading this bot branch
 is not evidence of deployment.
 
+## Operator publication without ZIP files
+
+The owner can publish from their own server terminal with GitHub SSH write
+access and a configured Git commit identity. These commands create a fresh
+checkout, require the reviewed `main` base, and restore only the approved site
+paths from a pinned public commit. They do not merge the bot branch or copy
+management records. They leave the bot workspace and its guard unchanged.
+The pinned source commit and restore command were checked against the reviewed
+publication patch: the resulting bytes match exactly, and the whitespace check
+passes. No new site build is needed for this documentation-only addition.
+
+```bash
+(
+  set -eu
+  publish_dir="$(mktemp -d /tmp/homepage-publish.XXXXXX)"
+  git clone --branch main git@github.com:JZSAWYER/JZSAWYER.github.io.git "$publish_dir"
+  cd "$publish_dir"
+
+  base=51d871249005c7e0061f7a802d64a66958df208a
+  approved=f3889b19aef9d833ecf874b55342336af6ba3ede
+  if [ "$(git rev-parse HEAD)" != "$base" ]; then
+    echo "main has changed. Stop and send homepage bot this output."
+    exit 1
+  fi
+
+  git restore --source="$approved" --staged --worktree -- \
+    _config.yml _data _includes _layouts _pages _sass assets \
+    images/ai4ai.png images/harnesses.png images/morphobench.png \
+    images/rc-grpo.png images/scan.png
+  git -c core.whitespace=cr-at-eol diff --cached --check
+  git commit -m "Update academic homepage and visitor statistics"
+  git push origin main
+)
+```
+
+The push must succeed before checking the repository's
+[Pages deployment](https://github.com/JZSAWYER/JZSAWYER.github.io/actions) and
+[live homepage](https://jzsawyer.github.io/). An authentication, commit-identity,
+or branch-protection error requires the owner to return the terminal output;
+do not change or bypass repository protections.
+
 ## Publication figure sources
 
 New thumbnails reproduce the original figures at reduced size; scientific
