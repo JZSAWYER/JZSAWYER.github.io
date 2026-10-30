@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14458,
+  "revision": 14492,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -68,6 +68,8 @@
   > 部分没有给的起止时间，openresearchflow是26.3-26.6，internagent是26.6-26.9，论文直接写论文arxiv那个月就可以（起止时间一样），删掉所有的待补充
 - [turn_864 | complete / completed | Git: synced](turns/turn_864.md#response)
   > 项目链接： 论文题目：RC－GRPO： Reward－Conditioned Group Relative Policy Optimization for Multi－Turn Tool Calling Agents 论文作者：Haitian Zhong， Jixiu Zhai， Lei Song， Jiang …
+- [turn_866 | complete / completed | Git: synced](turns/turn_866.md#response)
+  > 这次依旧没有获奖，甚至所有经历描述都没有了
 
 ## All activity
 
