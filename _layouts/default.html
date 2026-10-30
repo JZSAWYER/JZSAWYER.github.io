@@ -9,12 +9,13 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.url == "/" %} class="homepage"{% endif %}>
+    {% if page.url == "/" %}<a class="skip-link" href="#main" target="_self">Skip to content</a>{% endif %}
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
+    <div id="main" role="main" tabindex="-1">
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
