@@ -6,7 +6,7 @@
   "mode": "idle",
   "revision": 14166,
   "schema": "intern-agent.record.v2",
-  "sync": "pending",
+  "sync": "synced",
   "updated_at": "2026-10-30T03:04:54.749Z",
   "working_conversations": 0,
   "workspace": "homepage"
