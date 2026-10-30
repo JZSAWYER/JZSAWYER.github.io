@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14392,
+  "revision": 14408,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -58,6 +58,8 @@
   > 导 ：边 、宋磊 描述： 1. 参与 AI4AI at Scale 相 工 ， 他 型蒸馏 迹， 组织 于 SFT 与 GRPO 实验的训练 。 检查工 与工 返回的 对系，以及 终 与证 的一致 。 2. 结 问题级去重、 任务 额采 及短迹比，控 训练 量与任务 ，减重 问题及 一迹度对训练 的响。 3. 参…
 - [turn_858 | complete / completed | Git: synced](turns/turn_858.md#response)
   > Owner answers to the asynchronous questions in this conversation: 这段结果来自上传上一版 PDF 还是 HTML？也请提供招聘网站名称或链接，方便判断是文字提取还是 OCR 识别出了问题；我会先重做两种格式。 Answer: 是pdf，链接是[re…
+- [turn_859 | complete / completed | Git: synced](turns/turn_859.md#response)
+  > 导师：谢幸 描述：围绕大语言模型安全（LLM Safety）开展科研实习。获微软亚洲研究院 Stars of Tomorrow 优秀实习生奖。 实习经历 4 导师：边江、宋磊 描述：在 Machine Learning Group 担任研究助理，与边江、宋磊合作开展研究。相关研究成果及技术细节见下方项目经历。 实…
 
 ## All activity
 
