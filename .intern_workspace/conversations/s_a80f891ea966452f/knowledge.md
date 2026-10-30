@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14408,
+  "revision": 14413,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -60,6 +60,8 @@
   > Owner answers to the asynchronous questions in this conversation: 这段结果来自上传上一版 PDF 还是 HTML？也请提供招聘网站名称或链接，方便判断是文字提取还是 OCR 识别出了问题；我会先重做两种格式。 Answer: 是pdf，链接是[re…
 - [turn_859 | complete / completed | Git: synced](turns/turn_859.md#response)
   > 导师：谢幸 描述：围绕大语言模型安全（LLM Safety）开展科研实习。获微软亚洲研究院 Stars of Tomorrow 优秀实习生奖。 实习经历 4 导师：边江、宋磊 描述：在 Machine Learning Group 担任研究助理，与边江、宋磊合作开展研究。相关研究成果及技术细节见下方项目经历。 实…
+- [turn_860 | complete / completed | Git: synced](turns/turn_860.md#response)
+  > html即可，pdf不够准确
 
 ## All activity
 
