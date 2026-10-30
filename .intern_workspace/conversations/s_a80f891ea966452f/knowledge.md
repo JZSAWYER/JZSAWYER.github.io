@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14231,
+  "revision": 14364,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -50,6 +50,8 @@
   > why your github PAT token cannot write? then hjow do you push the agen up there?
 - [turn_845 | complete / completed | Git: synced](turns/turn_845.md#response)
   > i know, why cannot you push a cleaned to another branch, and i complete the pr on the website
+- [turn_855 | complete / completed | Git: synced](turns/turn_855.md#response)
+  > referring to my homepage and my uploaded resume, generate a comprehensive chinese version of personal cv so that it can be parsed to fit into this kind of re…
 
 ## All activity
 
