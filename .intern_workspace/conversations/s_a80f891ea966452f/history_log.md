@@ -1843,10 +1843,58 @@
       "revision": 14160,
       "task_id": null,
       "turn_id": "turn_839"
+    },
+    {
+      "at": "2026-10-30T03:04:53.826Z",
+      "event_id": "event_14161",
+      "phase": "complete",
+      "revision": 14161,
+      "task_id": null,
+      "turn_id": "turn_839"
+    },
+    {
+      "at": "2026-10-30T03:04:54.210Z",
+      "event_id": "event_14162",
+      "phase": "evidence",
+      "revision": 14162,
+      "task_id": null,
+      "turn_id": "turn_840"
+    },
+    {
+      "at": "2026-10-30T03:04:54.211Z",
+      "event_id": "event_14163",
+      "phase": "evidence",
+      "revision": 14163,
+      "task_id": null,
+      "turn_id": "turn_840"
+    },
+    {
+      "at": "2026-10-30T03:04:54.214Z",
+      "event_id": "event_14164",
+      "phase": "evidence",
+      "revision": 14164,
+      "task_id": null,
+      "turn_id": "turn_840"
+    },
+    {
+      "at": "2026-10-30T03:04:54.219Z",
+      "event_id": "event_14165",
+      "phase": "complete",
+      "revision": 14165,
+      "task_id": null,
+      "turn_id": "turn_840"
+    },
+    {
+      "at": "2026-10-30T03:04:54.749Z",
+      "event_id": "event_14166",
+      "phase": "memory",
+      "revision": 14166,
+      "task_id": null,
+      "turn_id": null
     }
   ],
   "kind": "history",
-  "revision": 14160,
+  "revision": 14166,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -2084,3 +2132,9 @@
 - 2026-10-30T03:04:41.247Z | result_ready | turn_839
 - 2026-10-30T03:04:41.256Z | reply_ready | turn_839
 - 2026-10-30T03:04:41.266Z | preparing_reply | turn_839
+- 2026-10-30T03:04:53.826Z | complete | turn_839
+- 2026-10-30T03:04:54.210Z | evidence | turn_840
+- 2026-10-30T03:04:54.211Z | evidence | turn_840
+- 2026-10-30T03:04:54.214Z | evidence | turn_840
+- 2026-10-30T03:04:54.219Z | complete | turn_840
+- 2026-10-30T03:04:54.749Z | memory | conversation
