@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14387,
+  "revision": 14392,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -56,6 +56,8 @@
   > Owner answers to the asynchronous questions in this conversation: 请补充希望写入简历的意向城市（最多3个）、最早到岗时间、每周可实习天数和预计实习时长；暂未确定的项目我会保留为“待补充”。 Answer: 北京，到岗时间先不写，每周五天，实习时长六个月
 - [turn_857 | complete / completed | Git: synced](turns/turn_857.md#response)
   > 导 ：边 、宋磊 描述： 1. 参与 AI4AI at Scale 相 工 ， 他 型蒸馏 迹， 组织 于 SFT 与 GRPO 实验的训练 。 检查工 与工 返回的 对系，以及 终 与证 的一致 。 2. 结 问题级去重、 任务 额采 及短迹比，控 训练 量与任务 ，减重 问题及 一迹度对训练 的响。 3. 参…
+- [turn_858 | complete / completed | Git: synced](turns/turn_858.md#response)
+  > Owner answers to the asynchronous questions in this conversation: 这段结果来自上传上一版 PDF 还是 HTML？也请提供招聘网站名称或链接，方便判断是文字提取还是 OCR 识别出了问题；我会先重做两种格式。 Answer: 是pdf，链接是[re…
 
 ## All activity
 
