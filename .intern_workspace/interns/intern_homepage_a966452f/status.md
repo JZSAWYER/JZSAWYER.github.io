@@ -12,4 +12,4 @@
 | Model | gpt-6.1-sol |
 | Reasoning effort | xhigh |
 | Status | Idle |
-| Agent activity | completed |
+| Agent activity | running |

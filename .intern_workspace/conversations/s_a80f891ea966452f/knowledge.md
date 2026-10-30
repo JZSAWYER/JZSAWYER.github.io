@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14144,
+  "revision": 14160,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -36,6 +36,8 @@
   > still publish the previous version (flag counter one), and you find other alyternatives or check if flag counter can block TW(if), publish first then find an…
 - [turn_838 | complete / completed | Git: synced](turns/turn_838.md#response)
   > this is good, publish this version, why cannot you publish? any problems?
+- [turn_839 | complete / completed | Git: synced](turns/turn_839.md#response)
+  > Continue the saved owner goal. Check current evidence, remaining work and the next useful action. Use the goal checkpoint tool before finishing; do not repla…
 
 ## All activity
 
