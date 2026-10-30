@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14111,
+  "revision": 14127,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -32,6 +32,8 @@
   > the flag counter has Taiwan, i dont want this, any other stats avoiding TW
 - [turn_836 | complete / completed | Git: synced](turns/turn_836.md#response)
   > provide preview html using busuanzi
+- [turn_837 | complete / completed | Git: synced](turns/turn_837.md#response)
+  > still publish the previous version (flag counter one), and you find other alyternatives or check if flag counter can block TW(if), publish first then find an…
 
 ## All activity
 
