@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14364,
+  "revision": 14369,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -52,6 +52,8 @@
   > i know, why cannot you push a cleaned to another branch, and i complete the pr on the website
 - [turn_855 | complete / completed | Git: synced](turns/turn_855.md#response)
   > referring to my homepage and my uploaded resume, generate a comprehensive chinese version of personal cv so that it can be parsed to fit into this kind of re…
+- [turn_856 | complete / completed | Git: synced](turns/turn_856.md#response)
+  > Owner answers to the asynchronous questions in this conversation: 请补充希望写入简历的意向城市（最多3个）、最早到岗时间、每周可实习天数和预计实习时长；暂未确定的项目我会保留为“待补充”。 Answer: 北京，到岗时间先不写，每周五天，实习时长六个月
 
 ## All activity
 

@@ -2,24 +2,27 @@
 
 <!-- intern-agent.record.v2
 {
-  "activity": "running",
-  "code_end": null,
-  "code_start": null,
-  "completed_at": null,
+  "activity": "completed",
+  "code_end": "6ea47ba70d50baa20f0394f95c0d729c806bd924",
+  "code_start": "fa8d4693ac741cae7e3d256ddfe6914c76a43aaa",
+  "completed_at": "2026-10-30T08:42:53.416Z",
   "conversation_id": "s_a80f891ea966452f",
   "evidence": [
     "Owner follow-up accepted into the existing Codex turn; shared completion, not a new task.",
     "Delivered file Haitian_Zhong_CV_ZH_Parsing.pdf; SHA256 e7c8452e7085deb42e7510af7d7b1b2bbd1eeef22c63a1ebcdcedb73afe42feb",
     "Delivered file Haitian_Zhong_CV_ZH_Parsing.txt; SHA256 eac384df96db0748dd1124d58b492f1b9dc26ea55b0651ed8c49de7d9bf87262",
-    "Delivered file Haitian_Zhong_CV_ZH_Parsing.html; SHA256 2d1297955fba852e5d8aa7d102757a2573406692d4410ae711a7412ce3236982"
+    "Delivered file Haitian_Zhong_CV_ZH_Parsing.html; SHA256 2d1297955fba852e5d8aa7d102757a2573406692d4410ae711a7412ce3236982",
+    "Shares execution and final delivery with parent turn 855; any captured Git baseline is retained. Not a separate Codex run.",
+    "Shared parent turn 855: Codex observed turn/completed status completed",
+    "Shared parent turn 855: Observed bound Codex transcript task_complete for turn 01a18beb-5693-7ca3-8cdf-f02bb7494551"
   ],
   "kind": "turn",
-  "phase": "awaiting_terminal",
+  "phase": "complete",
   "received_at": null,
-  "revision": 14357,
+  "revision": 14369,
   "schema": "intern-agent.record.v2",
   "source": "legacy",
-  "sync": "pending",
+  "sync": "synced",
   "task_id": null,
   "turn_id": "turn_856",
   "workspace": "homepage"
@@ -35,7 +38,7 @@
 
 ## Response
 
-> (none)
+> Follow-up handled in the shared Codex turn. See the final reply for turn 855.
 
 ## Evidence
 
@@ -43,3 +46,6 @@
 > Delivered file Haitian_Zhong_CV_ZH_Parsing.pdf; SHA256 e7c8452e7085deb42e7510af7d7b1b2bbd1eeef22c63a1ebcdcedb73afe42feb
 > Delivered file Haitian_Zhong_CV_ZH_Parsing.txt; SHA256 eac384df96db0748dd1124d58b492f1b9dc26ea55b0651ed8c49de7d9bf87262
 > Delivered file Haitian_Zhong_CV_ZH_Parsing.html; SHA256 2d1297955fba852e5d8aa7d102757a2573406692d4410ae711a7412ce3236982
+> Shares execution and final delivery with parent turn 855; any captured Git baseline is retained. Not a separate Codex run.
+> Shared parent turn 855: Codex observed turn/completed status completed
+> Shared parent turn 855: Observed bound Codex transcript task_complete for turn 01a18beb-5693-7ca3-8cdf-f02bb7494551

@@ -2571,10 +2571,50 @@
       "revision": 14364,
       "task_id": null,
       "turn_id": "turn_855"
+    },
+    {
+      "at": "2026-10-30T08:43:06.573Z",
+      "event_id": "event_14365",
+      "phase": "complete",
+      "revision": 14365,
+      "task_id": null,
+      "turn_id": "turn_855"
+    },
+    {
+      "at": "2026-10-30T08:43:06.655Z",
+      "event_id": "event_14366",
+      "phase": "evidence",
+      "revision": 14366,
+      "task_id": null,
+      "turn_id": "turn_856"
+    },
+    {
+      "at": "2026-10-30T08:43:06.656Z",
+      "event_id": "event_14367",
+      "phase": "evidence",
+      "revision": 14367,
+      "task_id": null,
+      "turn_id": "turn_856"
+    },
+    {
+      "at": "2026-10-30T08:43:06.657Z",
+      "event_id": "event_14368",
+      "phase": "evidence",
+      "revision": 14368,
+      "task_id": null,
+      "turn_id": "turn_856"
+    },
+    {
+      "at": "2026-10-30T08:43:06.668Z",
+      "event_id": "event_14369",
+      "phase": "complete",
+      "revision": 14369,
+      "task_id": null,
+      "turn_id": "turn_856"
     }
   ],
   "kind": "history",
-  "revision": 14364,
+  "revision": 14369,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -2903,3 +2943,8 @@
 - 2026-10-30T08:42:54.665Z | result_ready | turn_855
 - 2026-10-30T08:42:54.673Z | reply_ready | turn_855
 - 2026-10-30T08:42:54.681Z | preparing_reply | turn_855
+- 2026-10-30T08:43:06.573Z | complete | turn_855
+- 2026-10-30T08:43:06.655Z | evidence | turn_856
+- 2026-10-30T08:43:06.656Z | evidence | turn_856
+- 2026-10-30T08:43:06.657Z | evidence | turn_856
+- 2026-10-30T08:43:06.668Z | complete | turn_856
