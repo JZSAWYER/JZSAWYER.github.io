@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14446,
+  "revision": 14458,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -66,6 +66,8 @@
   > 描述:接受数学与应用数学培养,具备优化、概率统计和数值分析基础。本科阶段获得丘成桐大学生数学竞赛两项优胜奖、全国大学生数学竞赛全国二等奖和全国大学生英语竞赛全国一等奖等荣誉。 获奖这部分是乱的 英语精通程度是无障碍沟通
 - [turn_862 | complete / completed | Git: synced](turns/turn_862.md#response)
   > 部分没有给的起止时间，openresearchflow是26.3-26.6，internagent是26.6-26.9，论文直接写论文arxiv那个月就可以（起止时间一样），删掉所有的待补充
+- [turn_864 | complete / completed | Git: synced](turns/turn_864.md#response)
+  > 项目链接： 论文题目：RC－GRPO： Reward－Conditioned Group Relative Policy Optimization for Multi－Turn Tool Calling Agents 论文作者：Haitian Zhong， Jixiu Zhai， Lei Song， Jiang …
 
 ## All activity
 
