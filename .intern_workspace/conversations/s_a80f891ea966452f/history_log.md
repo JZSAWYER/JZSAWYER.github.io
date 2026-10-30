@@ -3675,10 +3675,130 @@
       "revision": 14526,
       "task_id": null,
       "turn_id": "turn_870"
+    },
+    {
+      "at": "2026-10-30T10:13:38.783Z",
+      "event_id": "event_14527",
+      "phase": "complete",
+      "revision": 14527,
+      "task_id": null,
+      "turn_id": "turn_870"
+    },
+    {
+      "at": "2026-10-30T14:31:20.463Z",
+      "event_id": "event_14559",
+      "phase": "memory",
+      "revision": 14559,
+      "task_id": null,
+      "turn_id": null
+    },
+    {
+      "at": "2026-10-30T14:31:21.286Z",
+      "event_id": "event_14560",
+      "phase": "received",
+      "revision": 14560,
+      "task_id": null,
+      "turn_id": "turn_876"
+    },
+    {
+      "at": "2026-10-30T14:31:21.286Z",
+      "event_id": "event_14562",
+      "phase": "memory",
+      "revision": 14562,
+      "task_id": null,
+      "turn_id": null
+    },
+    {
+      "at": "2026-10-30T14:31:21.455Z",
+      "event_id": "event_14563",
+      "phase": "running",
+      "revision": 14563,
+      "task_id": null,
+      "turn_id": "turn_876"
+    },
+    {
+      "at": "2026-10-30T14:31:26.418Z",
+      "event_id": "event_14564",
+      "phase": "code_snapshot",
+      "revision": 14564,
+      "task_id": null,
+      "turn_id": "turn_876"
+    },
+    {
+      "at": "2026-10-30T14:31:26.419Z",
+      "event_id": "event_14565",
+      "phase": "running",
+      "revision": 14565,
+      "task_id": null,
+      "turn_id": "turn_876"
+    },
+    {
+      "at": "2026-10-30T14:31:26.636Z",
+      "event_id": "event_14567",
+      "phase": "memory",
+      "revision": 14567,
+      "task_id": null,
+      "turn_id": null
+    },
+    {
+      "at": "2026-10-30T14:33:07.388Z",
+      "event_id": "event_14568",
+      "phase": "evidence",
+      "revision": 14568,
+      "task_id": null,
+      "turn_id": "turn_876"
+    },
+    {
+      "at": "2026-10-30T14:33:07.641Z",
+      "event_id": "event_14569",
+      "phase": "evidence",
+      "revision": 14569,
+      "task_id": null,
+      "turn_id": "turn_876"
+    },
+    {
+      "at": "2026-10-30T14:33:07.648Z",
+      "event_id": "event_14570",
+      "phase": "running",
+      "revision": 14570,
+      "task_id": null,
+      "turn_id": "turn_876"
+    },
+    {
+      "at": "2026-10-30T14:33:08.997Z",
+      "event_id": "event_14571",
+      "phase": "result_ready",
+      "revision": 14571,
+      "task_id": null,
+      "turn_id": "turn_876"
+    },
+    {
+      "at": "2026-10-30T14:33:09.022Z",
+      "event_id": "event_14572",
+      "phase": "result_ready",
+      "revision": 14572,
+      "task_id": null,
+      "turn_id": "turn_876"
+    },
+    {
+      "at": "2026-10-30T14:33:09.033Z",
+      "event_id": "event_14573",
+      "phase": "reply_ready",
+      "revision": 14573,
+      "task_id": null,
+      "turn_id": "turn_876"
+    },
+    {
+      "at": "2026-10-30T14:33:09.049Z",
+      "event_id": "event_14574",
+      "phase": "preparing_reply",
+      "revision": 14574,
+      "task_id": null,
+      "turn_id": "turn_876"
     }
   ],
   "kind": "history",
-  "revision": 14526,
+  "revision": 14574,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -4145,3 +4265,18 @@
 - 2026-10-30T10:13:25.705Z | result_ready | turn_870
 - 2026-10-30T10:13:25.713Z | reply_ready | turn_870
 - 2026-10-30T10:13:25.723Z | preparing_reply | turn_870
+- 2026-10-30T10:13:38.783Z | complete | turn_870
+- 2026-10-30T14:31:20.463Z | memory | conversation
+- 2026-10-30T14:31:21.286Z | received | turn_876
+- 2026-10-30T14:31:21.286Z | memory | conversation
+- 2026-10-30T14:31:21.455Z | running | turn_876
+- 2026-10-30T14:31:26.418Z | code_snapshot | turn_876
+- 2026-10-30T14:31:26.419Z | running | turn_876
+- 2026-10-30T14:31:26.636Z | memory | conversation
+- 2026-10-30T14:33:07.388Z | evidence | turn_876
+- 2026-10-30T14:33:07.641Z | evidence | turn_876
+- 2026-10-30T14:33:07.648Z | running | turn_876
+- 2026-10-30T14:33:08.997Z | result_ready | turn_876
+- 2026-10-30T14:33:09.022Z | result_ready | turn_876
+- 2026-10-30T14:33:09.033Z | reply_ready | turn_876
+- 2026-10-30T14:33:09.049Z | preparing_reply | turn_876
