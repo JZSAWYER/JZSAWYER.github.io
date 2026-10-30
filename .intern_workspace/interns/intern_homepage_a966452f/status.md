@@ -10,6 +10,6 @@
 | Current PR | none; explicit user request required |
 | Management branch | same as current branch (code and records) |
 | Model | gpt-6.1-sol |
-| Reasoning effort | ultra |
+| Reasoning effort | xhigh |
 | Status | Idle |
-| Agent activity | completed |
+| Agent activity | waiting |
