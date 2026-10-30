@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14413,
+  "revision": 14441,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -62,6 +62,8 @@
   > 导师：谢幸 描述：围绕大语言模型安全（LLM Safety）开展科研实习。获微软亚洲研究院 Stars of Tomorrow 优秀实习生奖。 实习经历 4 导师：边江、宋磊 描述：在 Machine Learning Group 担任研究助理，与边江、宋磊合作开展研究。相关研究成果及技术细节见下方项目经历。 实…
 - [turn_860 | complete / completed | Git: synced](turns/turn_860.md#response)
   > html即可，pdf不够准确
+- [turn_861 | complete / completed | Git: synced](turns/turn_861.md#response)
+  > 描述:接受数学与应用数学培养,具备优化、概率统计和数值分析基础。本科阶段获得丘成桐大学生数学竞赛两项优胜奖、全国大学生数学竞赛全国二等奖和全国大学生英语竞赛全国一等奖等荣誉。 获奖这部分是乱的 英语精通程度是无障碍沟通
 
 ## All activity
 
