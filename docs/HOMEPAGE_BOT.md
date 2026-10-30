@@ -144,74 +144,47 @@ passed 17 focused browser checks online and offline at widths 320, 390, and
 retained provider link, no map, no overflow, and no JavaScript errors.
 Desktop/mobile screenshots were reviewed.
 
-## Publication handoff
+## Publication handoff and manual PR
 
-Publication of the approved Mini-counter version is owner-authorized. The public
-GitHub Actions history confirms Pages builds from `main`; the latest successful
-run uses commit `51d871249005c7e0061f7a802d64a66958df208a`. The live site still
-shows the older homepage. A guarded dry-run push to `main` was rejected by the
-installed workspace Git guard, which permits only the registered bot branch.
-The restriction was rechecked after the latest publication request and remains
-in place. This is a publishing-path restriction, not a reported site build
-failure. No guard or protection was changed or bypassed.
-The same allowlist rejects an additional clean publishing branch such as
-`homepage-update`; preparing a site-only diff does not register a new push
-destination. This combined code/history workspace permits exactly its permanent
-bot branch. The exposed relay commands provide no established publication route
-for this additional branch. An approved publisher or workspace administrator
-must supply that route; owner approval of the content alone does not change the
-installed binding.
+The owner requires a reviewed pull request before any homepage publication.
+Never push directly to `main` or `master`, from this bot or another terminal.
+Never suggest disabling a guard, asking for broader token rights, or bypassing
+the restriction as a publishing workaround. Do not create or merge a PR unless
+the owner explicitly requests that action; the owner currently wants to create
+the PR on the GitHub website themselves.
 
-[homepage-publication.zip](preview/homepage-publication.zip) contains a binary
-patch against that `main` commit and application instructions. It includes only
-the reviewed site sources, font licenses, and used new publication figures.
-It excludes management records, preview artifacts, private attachments, and
-unused draft figures. Applying the patch to the base index was checked without
-changing the working branch. An operator with an approved publishing path must
-apply/commit/push the patch and verify the Pages build and live site. Actual
-publication remains unfinished; restoring files or uploading this bot branch
-is not evidence of deployment.
+The clean `homepage-update` review branch has now been uploaded to the same
+repository. It contains a single site-only commit directly above the reviewed
+`main` revision. Its exact 25-file diff matches the approved Mini-counter
+publication patch, with no bot management records, preview archives, private
+attachments or bot history. It includes the source fonts and license and the
+five used publication figures. The Mini display shows aggregate pageviews;
+the provider's linked dashboard can still contain geographic information.
 
-## Operator publication without ZIP files
+Review and create the PR on GitHub:
 
-The owner can publish from their own server terminal with GitHub SSH write
-access and a configured Git commit identity. These commands create a fresh
-checkout, require the reviewed `main` base, and restore only the approved site
-paths from a pinned public commit. They do not merge the bot branch or copy
-management records. They leave the bot workspace and its guard unchanged.
-The pinned source commit and restore command were checked against the reviewed
-publication patch: the resulting bytes match exactly, and the whitespace check
-passes. No new site build is needed for this documentation-only addition.
+https://github.com/JZSAWYER/JZSAWYER.github.io/compare/main...homepage-update?expand=1
 
-```bash
-(
-  set -eu
-  publish_dir="$(mktemp -d /tmp/homepage-publish.XXXXXX)"
-  git clone --branch main git@github.com:JZSAWYER/JZSAWYER.github.io.git "$publish_dir"
-  cd "$publish_dir"
+Use base `main` and compare `homepage-update`; review Files changed and GitHub
+checks before the owner decides to merge. The branch upload is not a website
+deployment. No PR or deployment was created by the export.
 
-  base=51d871249005c7e0061f7a802d64a66958df208a
-  approved=f3889b19aef9d833ecf874b55342336af6ba3ede
-  if [ "$(git rev-parse HEAD)" != "$base" ]; then
-    echo "main has changed. Stop and send homepage bot this output."
-    exit 1
-  fi
+The temporary export used a separate guarded checkout and has been closed.
+This bot retains exactly its permanent working branch and unchanged guard;
+other bots gained no publishing permission. Another snapshot or publishing
+attempt needs a newly scoped route and current-main reconciliation. Never
+overwrite an existing clean branch or force-push to clear a publishing block.
 
-  git restore --source="$approved" --staged --worktree -- \
-    _config.yml _data _includes _layouts _pages _sass assets \
-    images/ai4ai.png images/harnesses.png images/morphobench.png \
-    images/rc-grpo.png images/scan.png
-  git -c core.whitespace=cr-at-eol diff --cached --check
-  git commit -m "Update academic homepage and visitor statistics"
-  git push origin main
-)
-```
+A fresh Jekyll 3.9.3 production build of the exact export passed using the
+existing pinned local tooling. The homepage content verifier, 21 local asset
+references, Mini-only counter, exact bundled font/license bytes and management
+exclusions passed. Eight negative guard probes rejected protected/unrelated
+destinations, mismatched/deletion refs and private/management paths. The full
+github-pages dependency bundle and production deployment are not claimed.
+GitHub Pages checks and the live site can be verified after the owner's merge.
 
-The push must succeed before checking the repository's
-[Pages deployment](https://github.com/JZSAWYER/JZSAWYER.github.io/actions) and
-[live homepage](https://jzsawyer.github.io/). An authentication, commit-identity,
-or branch-protection error requires the owner to return the terminal output;
-do not change or bypass repository protections.
+The earlier publication ZIP remains a historical reviewed-patch artifact.
+Its old instructions are superseded by the clean-branch PR workflow above.
 
 ## Publication figure sources
 
