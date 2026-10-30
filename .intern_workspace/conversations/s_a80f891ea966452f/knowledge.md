@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14177,
+  "revision": 14189,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -42,6 +42,8 @@
   > instead of providing a zip, maybe you can provide command i can execute on the server, i dont know how to use the zip
 - [turn_841 | complete / completed | Git: synced](turns/turn_841.md#response)
   > can i use pr to merge to main?
+- [turn_842 | complete / completed | Git: synced](turns/turn_842.md#response)
+  > Open a pull request Create a new pull request by comparing changes across two branches. If you need to, you can also . [Learn more about diff comparisons her…
 
 ## All activity
 
