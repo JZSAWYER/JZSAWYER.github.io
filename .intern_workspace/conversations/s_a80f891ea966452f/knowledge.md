@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14369,
+  "revision": 14387,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -54,6 +54,8 @@
   > referring to my homepage and my uploaded resume, generate a comprehensive chinese version of personal cv so that it can be parsed to fit into this kind of re…
 - [turn_856 | complete / completed | Git: synced](turns/turn_856.md#response)
   > Owner answers to the asynchronous questions in this conversation: 请补充希望写入简历的意向城市（最多3个）、最早到岗时间、每周可实习天数和预计实习时长；暂未确定的项目我会保留为“待补充”。 Answer: 北京，到岗时间先不写，每周五天，实习时长六个月
+- [turn_857 | complete / completed | Git: synced](turns/turn_857.md#response)
+  > 导 ：边 、宋磊 描述： 1. 参与 AI4AI at Scale 相 工 ， 他 型蒸馏 迹， 组织 于 SFT 与 GRPO 实验的训练 。 检查工 与工 返回的 对系，以及 终 与证 的一致 。 2. 结 问题级去重、 任务 额采 及短迹比，控 训练 量与任务 ，减重 问题及 一迹度对训练 的响。 3. 参…
 
 ## All activity
 
