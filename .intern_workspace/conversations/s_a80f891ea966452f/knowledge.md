@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14127,
+  "revision": 14142,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -34,6 +34,8 @@
   > provide preview html using busuanzi
 - [turn_837 | complete / completed | Git: synced](turns/turn_837.md#response)
   > still publish the previous version (flag counter one), and you find other alyternatives or check if flag counter can block TW(if), publish first then find an…
+- [turn_838 | complete / completed | Git: synced](turns/turn_838.md#response)
+  > this is good, publish this version, why cannot you publish? any problems?
 
 ## All activity
 
