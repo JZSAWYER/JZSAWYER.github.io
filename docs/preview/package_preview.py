@@ -1,8 +1,8 @@
-"""Embed homepage assets in one review HTML file, retaining visitor widgets.
+"""Embed homepage assets in one review HTML file, retaining the pageviews counter.
 
 Usage: python docs/preview/package_preview.py BUILD_DIRECTORY OUTPUT_HTML
-Requires BeautifulSoup and requests. Visitor widgets refresh with internet access;
-the country counter also includes a snapshot for offline viewing.
+Requires BeautifulSoup and requests. The counter refreshes with internet access
+and includes a snapshot for offline viewing.
 """
 import base64
 import mimetypes
@@ -55,15 +55,12 @@ for link in list(soup.select('link[rel~="stylesheet"]')):
 for script in list(soup.find_all('script')):
     src = script.get('src')
     if src:
-        if script.get('id') == 'clustrmaps' and urlsplit('https:' + src if src.startswith('//') else src).hostname == 'cdn.clustrmaps.com':
-            script['src'] = 'https:' + src if src.startswith('//') else src
-            continue
         path = local_path(src)
         if path and path.is_file():
             del script['src']
             script.string = path.read_text().replace('</script', '<\\/script')
         else:
-            # Keep the requested visitor map; omit unrelated remote scripts.
+            # Omit remote analytics and other unrelated scripts.
             script.decompose()
     elif script.get('type') == 'text/x-mathjax-config' or any(marker in script.get_text() for marker in ('google_scholar', 'google-scholar-stats', 'gsDataBaseUrl')):
         script.decompose()

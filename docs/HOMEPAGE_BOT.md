@@ -61,21 +61,20 @@ Generate it from a fresh Jekyll build outside the checkout, embedding local
 styles, scripts, images, and fonts. Use the versioned
 [preview packager](preview/package_preview.py) with a build directory and output
 HTML path. Normalize section links for opening the file directly and omit
-unrelated analytics. The currently approved publication version uses the full
-FlagCounter and existing ClustrMaps footer. The preview embeds a genuine
-country-counter snapshot for offline viewing, then refreshes it after a live
-image loads. The map requires internet access. The Busuanzi draft remains an
-alternative and is not the selected publication version.
+unrelated analytics. The approved publication version now uses FlagCounter Mini
+with the existing counter ID. The preview embeds a genuine pageviews snapshot
+for offline viewing and refreshes it after a live image loads. It omits the
+country table and map while keeping the provider's required link to its
+statistical information. That linked provider page can still show geographic
+data. The previous full counter and Busuanzi drafts are not selected for
+publication.
 
-A separate [Mini-counter preview](preview/homepage-counter-alternative.zip)
-uses FlagCounter's documented pageviews-only mode with the existing counter ID.
-It removes the country table and map from the homepage while keeping the
-provider's required link to its statistical information. That linked provider
-page can still show geographic data. No supported per-entry exclusion was
-verified in the public [FAQ](https://s03.flagcounter.com/faq.html), code generator,
-or Pro feature list. Do not treat `flags_0` on the full counter as a geographic
-filter; it hides the number of collected flags, not individual rows. The Mini
-endpoint is the documented aggregate-only display.
+The [Mini-counter preview](preview/homepage-counter-alternative.zip) documents
+the same approved display. No supported per-entry exclusion was verified in the
+public [FAQ](https://s03.flagcounter.com/faq.html), code generator, or Pro feature
+list. Do not treat `flags_0` on the full counter as a geographic filter; it hides
+the number of collected flags, not individual rows. The Mini endpoint is the
+documented aggregate-only display.
 The original site templates and styles remain the source for publication.
 
 The current content draft uses **third-year Ph.D. student**, includes seven LLM
@@ -128,9 +127,8 @@ checked in rendered HTML. Section links open in the current tab.
 The Jekyll build and standalone HTML checks pass for seven publication cards,
 four/three topic groups, eight news entries, all seven navigation links, the
 requested professor names, removed content, and local assets. The standalone
-approved FlagCounter preview embeds 19 images. Fonts and styles are embedded;
-ClustrMaps is the only external script. The separate Mini preview embeds its
-pageviews image and uses no map script.
+approved Mini preview embeds the pageviews image, fonts, and styles. It uses no
+external map script.
 The typography and interaction revision passed all 40 browser checks in headless Chromium 102 at widths 320, 390, 768,
 and 1440 pixels. Those checks verify loaded
 Source Sans 3 regular/semibold faces, embedded font sources, and the requested
@@ -140,22 +138,22 @@ reduced motion, no-JavaScript content, and horizontal overflow. The theme
 scrolling handler is disabled on the homepage so native focus and scroll
 margins work. The test host lacks CJK and emoji fonts; screenshot review uses
 temporary fallback fonts without adding CJK or emoji font assets to the site.
-The restored FlagCounter source matches the previously reviewed version and
-passes a fresh Jekyll build. The Mini alternative passed 17 focused browser
-checks online and offline at widths 320, 390, and 1440: correct counter ID,
-pageviews-only endpoint, loaded live/snapshot image, retained provider link,
-no map, no overflow, and no JavaScript errors. Desktop/mobile screenshots were
-reviewed. ClustrMaps remains unreachable from the test environment, so its
-rendering is unverified.
+The approved Mini source passes a fresh Jekyll build. Its packaged preview
+passed 17 focused browser checks online and offline at widths 320, 390, and
+1440: correct counter ID, pageviews-only endpoint, loaded live/snapshot image,
+retained provider link, no map, no overflow, and no JavaScript errors.
+Desktop/mobile screenshots were reviewed.
 
 ## Publication handoff
 
-Publication of the approved FlagCounter version is owner-authorized. The public
+Publication of the approved Mini-counter version is owner-authorized. The public
 GitHub Actions history confirms Pages builds from `main`; the latest successful
 run uses commit `51d871249005c7e0061f7a802d64a66958df208a`. The live site still
 shows the older homepage. A guarded dry-run push to `main` was rejected by the
 installed workspace Git guard, which permits only the registered bot branch.
-No guard or protection was changed or bypassed.
+The restriction was rechecked after the latest publication request and remains
+in place. This is a publishing-path restriction, not a reported site build
+failure. No guard or protection was changed or bypassed.
 
 [homepage-publication.zip](preview/homepage-publication.zip) contains a binary
 patch against that `main` commit and application instructions. It includes only
