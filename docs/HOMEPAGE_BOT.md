@@ -61,11 +61,18 @@ Generate it from a fresh Jekyll build outside the checkout, embedding local
 styles, scripts, images, and fonts. Use the versioned
 [preview packager](preview/package_preview.py) with a build directory and output
 HTML path. Normalize section links for opening the file directly and omit
-unrelated analytics. Preserve the original FlagCounter and ClustrMaps widgets
-at the end of both the source homepage and its preview. The preview embeds a
-real counter snapshot for offline viewing and refreshes it after the live image
-loads. The ClustrMaps script uses explicit HTTPS for local-file compatibility
-and needs internet access.
+unrelated analytics. Visitor statistics use **Busuanzi** for aggregate pageviews
+and visitors only. Do not include country flags, location breakdowns, or a map.
+The previous visitor widgets and their snapshots are removed from the preview.
+Busuanzi uses its own counting history; previous-provider figures are not copied
+into the new totals. Follow the [official integration guide](https://ibruce.info/2015/04/04/busuanzi/)
+for the `busuanzi_value_site_pv` and `busuanzi_value_site_uv` elements.
+
+Local review HTML shows em dashes and a preview note because its file/localhost
+origin cannot represent the published website's visitor totals. The packager
+retains a loader that requests live Busuanzi counts only on the canonical HTTPS
+website hostname. Do not insert sample counts into the delivered preview or
+request live production counts while testing a local file.
 The original site templates and styles remain the source for publication.
 
 The current content draft uses **third-year Ph.D. student**, includes seven LLM
@@ -118,8 +125,8 @@ checked in rendered HTML. Section links open in the current tab.
 The Jekyll build and standalone HTML checks pass for seven publication cards,
 four/three topic groups, eight news entries, all seven navigation links, the
 requested professor names, removed content, and local assets. The standalone
-preview embeds 19 images, including the country-counter snapshot. Fonts and
-styles are embedded; the original ClustrMaps widget is the sole external script.
+preview embeds 18 images. Fonts, images, styles, and local scripts are embedded;
+Busuanzi loads separately when served on the canonical website domain.
 The typography and interaction revision passed all 40 browser checks in headless Chromium 102 at widths 320, 390, 768,
 and 1440 pixels. Those checks verify loaded
 Source Sans 3 regular/semibold faces, embedded font sources, and the requested
@@ -129,13 +136,13 @@ reduced motion, no-JavaScript content, and horizontal overflow. The theme
 scrolling handler is disabled on the homepage so native focus and scroll
 margins work. The test host lacks CJK and emoji fonts; screenshot review uses
 temporary fallback fonts without adding CJK or emoji font assets to the site.
-The visitor footer passed 14 focused checks online and with network access
-blocked, including visible counts, placement, and no overflow at desktop and
-mobile widths.
-The FlagCounter image endpoint responds successfully; ClustrMaps currently
-fails to establish a connection from the test environment. Its original widget
-configuration remains included, but map rendering could not be verified here.
-The counter snapshot and link to the full statistics remain usable.
+The Busuanzi footer passed 17 focused checks, including placement after
+Education, local/no-JavaScript placeholders, no former widgets or country
+content, no local production-count requests, and no overflow at widths 320,
+390, and 1440 pixels. The official provider script returned HTTP 200. Its JSONP
+integration was verified with intercepted fixture responses on a simulated
+canonical origin; fixture values exist only in private QA and are absent from
+the preview. Live production totals have not been requested or validated.
 Repository dependency files and tracked `_site/` output are preserved; no publication,
 deployment, pull request, merge, or hosting changes are part of this review.
 
