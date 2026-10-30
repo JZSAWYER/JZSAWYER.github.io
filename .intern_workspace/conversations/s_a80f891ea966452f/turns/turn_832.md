@@ -2,19 +2,19 @@
 
 <!-- intern-agent.record.v2
 {
-  "activity": "waiting",
+  "activity": "completed",
   "code_end": null,
   "code_start": null,
-  "completed_at": null,
+  "completed_at": "2026-10-30T02:28:52.588Z",
   "conversation_id": "s_a80f891ea966452f",
   "evidence": [],
   "kind": "turn",
-  "phase": "received",
+  "phase": "complete",
   "received_at": "2026-10-30T02:28:45.987Z",
-  "revision": 14083,
+  "revision": 14086,
   "schema": "intern-agent.record.v2",
   "source": "feishu",
-  "sync": "pending",
+  "sync": "synced",
   "task_id": null,
   "turn_id": "turn_832",
   "workspace": "homepage"

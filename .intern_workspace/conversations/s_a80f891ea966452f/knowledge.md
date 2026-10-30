@@ -4,7 +4,7 @@
 {
   "conversation_id": "s_a80f891ea966452f",
   "kind": "knowledge",
-  "revision": 14085,
+  "revision": 14109,
   "schema": "intern-agent.record.v2",
   "workspace": "homepage"
 }
@@ -30,6 +30,8 @@
   > you foget the view people stats at the end
 - [turn_830 | complete / completed | Git: synced](turns/turn_830.md#response)
   > the flag counter has Taiwan, i dont want this, any other stats avoiding TW
+- [turn_836 | complete / completed | Git: synced](turns/turn_836.md#response)
+  > provide preview html using busuanzi
 
 ## All activity
 
